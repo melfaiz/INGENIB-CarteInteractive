@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ingenib guide</title>
+  <link rel="stylesheet" href="style.css" type="text/css" media="screen"/>
+	<script type="text/javascript">
+
+		function test() { 
+		
+		//Mettre tous les rectangles en classe Hiden
+			elem = document.querySelectorAll("rect"); //Selection des rectangles
+			
+			for (var i=0; i < elem.length; i++) {
+				elem[i].setAttribute("class", "hiden");  //Changer la classe to hiden
+			}
+			
+		// Si la ckeck box est coché, on selectionne tous les élements de la fillière 
+		
+			var els = []; //liste qui contiendra les ID des elements selectionnés
+			
+			//pour le telecom
+			var name;
+			if (eval("document.forms.e.telecombox.checked == true")){
+				els.push(document.querySelector("#thales"));
+			}
+		  
+		  //Pour les elec
+		  if (eval("document.forms.e.elecbox.checked == true")){ 
+			 els.push(document.querySelector("#CEA"));
+		  }
+		  
+		  //Pour les mmk
+		  if (eval("document.forms.e.mathmecabox.checked == true")){
+			els.push(document.querySelector("#Meretis"));
+		  }
+		  
+		  //Pour les infos
+		  if (eval("document.forms.e.infobox.checked == true")){
+			els.push(document.querySelector("#capgemini"));
+		  }
+		
+		//Change la classe des élements to activ
+			for (var i=0; i < els.length; i++) {
+				els[i].setAttribute("class", "activ");
+			}
+			
+
+		}
+
+	</script>
+</head>
+<body>
+
+	<form name="e">
+
+		telecom <input type="checkbox" name="telecombox" value="checkbox">
+		elec <input type="checkbox" name="elecbox" value="checkbox">
+		mathmeca <input type="checkbox" name="mathmecabox" value="checkbox"> 
+		info <input type="checkbox" name="infobox" value="checkbox"> 
+
+		<input type="button" name="bout" value="Tester" onClick="test()">
+
+	</form>
+
+ <div class="map">
+        <svg id="map" width="580" height="400" xmlns="http://www.w3.org/2000/svg">
+
+            
+
+             <rect id="thales" class="telecom" height="64" width="75" y="40.4375" x="50.5" stroke-width="1.5" stroke="#000" />
+             <rect id="CEA" class="telecom" height="64" width="75" y="40.4375" x="128.5" stroke-width="1.5" stroke="#000" />
+             <rect id="Meretis" class="telecom" height="64" width="75" y="40.4375" x="206.5" stroke-width="1.5" stroke="#000" />
+             <rect id="capgemini" class="telecom" height="64" width="75" y="40.4375" x="284.5" stroke-width="1.5" stroke="#000" />
+             <rect id="Etp5" class="info" height="64" width="75" y="40.4375" x="362.5" stroke-width="1.5" stroke="#000" />
+             <rect id="Etp6" class="info" height="64" width="75" y="40.4375" x="440.5" stroke-width="1.5" stroke="#000"/>
+             <rect id="Etp7" class="info" height="64" width="75" y="107.4375" x="50.5" stroke-width="1.5" stroke="#000" />
+             <rect id="Etp8" class="info" height="64" width="75" y="175.4375" x="50.5" stroke-width="1.5" stroke="#000" />
+             <rect id="Etp9" class="info" height="64" width="75" y="243.4375" x="50.5" stroke-width="1.5" stroke="#000" />
+             <rect id="Etp10" class="elec" height="64" width="75" y="107.4375" x="440.5" stroke-width="1.5" stroke="#000" />
+             <rect id="Etp11" class="elec" height="64" width="75" y="175.4375" x="440.5" stroke-width="1.5" stroke="#000" />
+             <rect id="Etp12" class="elec" height="64" width="75" y="243.4375" x="440.5" stroke-width="1.5" stroke="#000" />
+             <rect id="Etp13" class="elec" height="64" width="75" y="311.4375" x="440.5" stroke-width="1.5" stroke="#000" />
+             <rect id="Etp14" class="elec" height="64" width="75" y="310.4375" x="50.5" stroke-width="1.5" stroke="#000" />
+             <rect id="Etp15" class="mmk" height="64" width="75" y="310.4375" x="128.5" stroke-width="1.5" stroke="#000" />
+             <rect id="Etp16" class="mmk" height="64" width="75" y="310.4375" x="206.5" stroke-width="1.5" stroke="#000" />
+             <rect id="Etp17" class="mmk" height="64" width="75" y="310.4375" x="284.5" stroke-width="1.5" stroke="#000" />
+       
+
+             <ellipse ry="43.5" rx="80" id="svg_22" cy="209.9375" cx="278.5" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="#ffffff"/>
+            
+           </svg>
+
+    </div>
+    
+</body>
+</html>
