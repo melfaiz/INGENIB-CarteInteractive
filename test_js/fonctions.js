@@ -78,7 +78,7 @@
 					}
 				});
 				
-				//Si il y a une checkbox domaines coché uniquement
+				//Si il y a au moins une checkbox domaines coché uniquement
 				if(check==1){
 					
 				stands.forEach(function(stand){				//Pour toute les cases 'activ'
