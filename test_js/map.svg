@@ -1,0 +1,31 @@
+<svg width="580" height="400" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <g>
+  <title>background</title>
+  <rect fill="#fff" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <rect id="svg_5" height="64" width="75" y="40.4375" x="50.5" stroke-width="1.5" stroke="#000" fill="#ffffff"/>
+  <rect id="svg_6" height="64" width="75" y="40.4375" x="128.5" stroke-width="1.5" stroke="#000" fill="#ffffff"/>
+  <rect id="svg_7" height="64" width="75" y="40.4375" x="206.5" stroke-width="1.5" stroke="#000" fill="#ffffff"/>
+  <rect id="svg_8" height="64" width="75" y="40.4375" x="284.5" stroke-width="1.5" stroke="#000" fill="#ffffff"/>
+  <rect id="svg_9" height="64" width="75" y="40.4375" x="362.5" stroke-width="1.5" stroke="#000" fill="#ffffff"/>
+  <rect id="svg_10" height="64" width="75" y="40.4375" x="440.5" stroke-width="1.5" stroke="#000" fill="#ffffff"/>
+  <rect id="svg_11" height="64" width="75" y="107.4375" x="50.5" stroke-width="1.5" stroke="#000" fill="#ffffff"/>
+  <rect id="svg_12" height="64" width="75" y="175.4375" x="50.5" stroke-width="1.5" stroke="#000" fill="#ffffff"/>
+  <rect id="svg_13" height="64" width="75" y="243.4375" x="50.5" stroke-width="1.5" stroke="#000" fill="#ffffff"/>
+  <rect id="svg_14" height="64" width="75" y="107.4375" x="440.5" stroke-width="1.5" stroke="#000" fill="#ffffff"/>
+  <rect id="svg_15" height="64" width="75" y="175.4375" x="440.5" stroke-width="1.5" stroke="#000" fill="#ffffff"/>
+  <rect id="svg_16" height="64" width="75" y="243.4375" x="440.5" stroke-width="1.5" stroke="#000" fill="#ffffff"/>
+  <rect id="svg_17" height="64" width="75" y="311.4375" x="440.5" stroke-width="1.5" stroke="#000" fill="#ffffff"/>
+  <rect id="svg_18" height="64" width="75" y="310.4375" x="50.5" stroke-width="1.5" stroke="#000" fill="#ffffff"/>
+  <rect id="svg_19" height="64" width="75" y="310.4375" x="128.5" stroke-width="1.5" stroke="#000" fill="#ffffff"/>
+  <rect id="svg_20" height="64" width="75" y="310.4375" x="206.5" stroke-width="1.5" stroke="#000" fill="#ffffff"/>
+  <rect id="svg_21" height="64" width="75" y="310.4375" x="284.5" stroke-width="1.5" stroke="#000" fill="#ffffff"/>
+  <ellipse ry="43.5" rx="80" id="svg_22" cy="209.9375" cx="278.5" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="#ffffff"/>
+ </g>
+</svg>

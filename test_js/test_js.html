@@ -3,135 +3,58 @@
 <head>
   <title>Ingenib guide</title>
   <link rel="stylesheet" href="style.css" type="text/css" media="screen"/>
-	<script type="text/javascript">
-
-		function test() { 
-		
-		//Mettre tous les rectangles en classe Hiden
-			elem = document.querySelectorAll("rect"); //Selection des rectangles
-			
-			for (var i=0; i < elem.length; i++) {
-				elem[i].setAttribute("class", "hiden");  //Changer la classe to hiden
-			}
-		 
-		// Pour stocker les données sur les entreprises. C'est peut-être pas très optimal..
-
-			var nb_etp=4;
-				
-		    var Etp1 ={
-				nom: thales,
-				telecom: true,
-				aero: true,
-			}
-			var Etp2 ={
-				nom: CEA,
-				info: true,
-				recherche: true,
-			}
-			
-			var Etp3 ={
-				nom: Meretis,
-				info: true,
-				elec: true,
-				sante: true,
-			}
-			
-			var Etp4 ={
-				nom: capgemini,
-				info: true,
-				telecom: true,
-				mmk: true,
-				sante: true,
-				robot: true,
-			}
-			
-		// Si la ckeck box est coché, on selectionne tous les élements de la fillière 
-		
-			var els = []; //liste qui contiendra les ID des elements selectionnés
-			
-			//pour le telecom
-			var name;
-			if (eval("document.forms.e.telecombox.checked == true")){
-				
-				for (var i=1; i < nb_etp+1; i++) {
-					if(eval("Etp"+i+".hasOwnProperty('telecom')")){
-						els.push("Etp"+i+".nom");  // l'erreur est à cette étape, il faut mettre le contenu de Etp1.nom dans la liste
-					}
-				}
-			}
-		  
-		  //Pour les elec
-		  if (eval("document.forms.e.elecbox.checked == true")){ 
-				for (var i=1; i < nb_etp+1; i++) {
-					if(eval("Etp"+i+".hasOwnProperty('elec')")){
-						els.push("Etp"+i+".nom");// l'erreur est à cette étape, il faut mettre le contenu de Etp1.nom dans la liste
-					}
-				}
-		  }
-		  
-		  //Pour les mmk
-		  if (eval("document.forms.e.mathmecabox.checked == true")){
-				for (var i=1; i < nb_etp+1; i++) {
-					if(eval("Etp"+i+".hasOwnProperty('mmk')")){
-						els.push("Etp"+i+".nom");// l'erreur est à cette étape, il faut mettre le contenu de Etp1.nom dans la liste
-					}
-				}
-		  }
-		  
-		  //Pour les infos
-		  if (eval("document.forms.e.infobox.checked == true")){
-				for (var i=1; i < nb_etp+1; i++) {
-					if(eval("Etp"+i+".hasOwnProperty('info')")){
-						els.push("Etp"+i+".nom");// l'erreur est à cette étape, il faut mettre le contenu de Etp1.nom dans la liste
-					}
-				}
-		  }
-		
-		//Change la classe des élements to activ
-			for (var i=0; i < els.length; i++) {
-				els[i].setAttribute("class", "activ");
-			}
-			
-
-		}
-
-	</script>
+	<script type="text/javascript" src="donneesEtps.js" defer> </script>
+	<script type="text/javascript" src="fonctions.js" defer> </script>
+	
 </head>
 <body>
 
-	<form name="e">
+	<div>
+	<h1>Filière</h1>
+	<form name="boxfillieres">
 
-		telecom <input type="checkbox" name="telecombox" value="checkbox">
-		elec <input type="checkbox" name="elecbox" value="checkbox">
-		mathmeca <input type="checkbox" name="mathmecabox" value="checkbox"> 
-		info <input type="checkbox" name="infobox" value="checkbox"> 
-
-		<input type="button" name="bout" value="Tester" onClick="test()">
+		telecom <input type="checkbox" id="telecombox" value="checkbox"  onClick="boxfilliere()">
+		elec <input type="checkbox" id="elecbox" value="checkbox" onClick="boxfilliere()">
+		mathmeca <input type="checkbox" id="mmkbox" value="checkbox" onClick="boxfilliere()"> 
+		info <input type="checkbox" id="infobox" value="checkbox" onClick="boxfilliere()"> 
 
 	</form>
+	</div>
+	
+	<div>
+	<h1>Ce qui m'interesse</h1>
+	<form name="boxdomaines">
 
+		aeronautique <input type="checkbox" id="aerobox" value="checkbox"  onClick="domaines()">
+		santé <input type="checkbox" id="santebox" value="checkbox" onClick="domaines()">
+		recherche <input type="checkbox" id="recherchebox" value="checkbox" onClick="domaines()"> 
+		robot <input type="checkbox" id="robotbox" value="checkbox" onClick="domaines()"> 
+
+	</form>
+	</div>
+	
  <div class="map">
         <svg id="map" width="580" height="400" xmlns="http://www.w3.org/2000/svg">
 
             
 
-             <rect id="thales" class="telecom" height="64" width="75" y="40.4375" x="50.5" stroke-width="1.5" stroke="#000" />
-             <rect id="CEA" class="telecom" height="64" width="75" y="40.4375" x="128.5" stroke-width="1.5" stroke="#000" />
-             <rect id="Meretis" class="telecom" height="64" width="75" y="40.4375" x="206.5" stroke-width="1.5" stroke="#000" />
-             <rect id="capgemini" class="telecom" height="64" width="75" y="40.4375" x="284.5" stroke-width="1.5" stroke="#000" />
-             <rect id="Etp5" class="info" height="64" width="75" y="40.4375" x="362.5" stroke-width="1.5" stroke="#000" />
-             <rect id="Etp6" class="info" height="64" width="75" y="40.4375" x="440.5" stroke-width="1.5" stroke="#000"/>
-             <rect id="Etp7" class="info" height="64" width="75" y="107.4375" x="50.5" stroke-width="1.5" stroke="#000" />
-             <rect id="Etp8" class="info" height="64" width="75" y="175.4375" x="50.5" stroke-width="1.5" stroke="#000" />
-             <rect id="Etp9" class="info" height="64" width="75" y="243.4375" x="50.5" stroke-width="1.5" stroke="#000" />
-             <rect id="Etp10" class="elec" height="64" width="75" y="107.4375" x="440.5" stroke-width="1.5" stroke="#000" />
-             <rect id="Etp11" class="elec" height="64" width="75" y="175.4375" x="440.5" stroke-width="1.5" stroke="#000" />
-             <rect id="Etp12" class="elec" height="64" width="75" y="243.4375" x="440.5" stroke-width="1.5" stroke="#000" />
-             <rect id="Etp13" class="elec" height="64" width="75" y="311.4375" x="440.5" stroke-width="1.5" stroke="#000" />
-             <rect id="Etp14" class="elec" height="64" width="75" y="310.4375" x="50.5" stroke-width="1.5" stroke="#000" />
-             <rect id="Etp15" class="mmk" height="64" width="75" y="310.4375" x="128.5" stroke-width="1.5" stroke="#000" />
-             <rect id="Etp16" class="mmk" height="64" width="75" y="310.4375" x="206.5" stroke-width="1.5" stroke="#000" />
-             <rect id="Etp17" class="mmk" height="64" width="75" y="310.4375" x="284.5" stroke-width="1.5" stroke="#000" />
+             <rect id="p1" class="telecom" height="64" width="75" y="40.4375" x="50.5" stroke-width="1.5" stroke="#000" />
+             <rect id="p2" class="telecom" height="64" width="75" y="40.4375" x="128.5" stroke-width="1.5" stroke="#000" />
+             <rect id="p3" class="telecom" height="64" width="75" y="40.4375" x="206.5" stroke-width="1.5" stroke="#000" />
+             <rect id="p4" class="telecom" height="64" width="75" y="40.4375" x="284.5" stroke-width="1.5" stroke="#000" />
+             <rect id="p5" class="info" height="64" width="75" y="40.4375" x="362.5" stroke-width="1.5" stroke="#000" />
+             <rect id="p6" class="info" height="64" width="75" y="40.4375" x="440.5" stroke-width="1.5" stroke="#000"/>
+             <rect id="p7" class="info" height="64" width="75" y="107.4375" x="50.5" stroke-width="1.5" stroke="#000" />
+             <rect id="p8" class="info" height="64" width="75" y="175.4375" x="50.5" stroke-width="1.5" stroke="#000" />
+             <rect id="p9" class="info" height="64" width="75" y="243.4375" x="50.5" stroke-width="1.5" stroke="#000" />
+             <rect id="p10" class="elec" height="64" width="75" y="107.4375" x="440.5" stroke-width="1.5" stroke="#000" />
+             <rect id="p11" class="elec" height="64" width="75" y="175.4375" x="440.5" stroke-width="1.5" stroke="#000" />
+             <rect id="p12" class="elec" height="64" width="75" y="243.4375" x="440.5" stroke-width="1.5" stroke="#000" />
+             <rect id="p13" class="elec" height="64" width="75" y="311.4375" x="440.5" stroke-width="1.5" stroke="#000" />
+             <rect id="p14" class="elec" height="64" width="75" y="310.4375" x="50.5" stroke-width="1.5" stroke="#000" />
+             <rect id="p15" class="mmk" height="64" width="75" y="310.4375" x="128.5" stroke-width="1.5" stroke="#000" />
+             <rect id="p16" class="mmk" height="64" width="75" y="310.4375" x="206.5" stroke-width="1.5" stroke="#000" />
+             <rect id="p17" class="mmk" height="64" width="75" y="310.4375" x="284.5" stroke-width="1.5" stroke="#000" />
        
 
              <ellipse ry="43.5" rx="80" id="svg_22" cy="209.9375" cx="278.5" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="#ffffff"/>
