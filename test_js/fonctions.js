@@ -125,3 +125,18 @@
 					});
 			}
 		}
+
+//Boucle pour associer les noms.
+for (var i=1; i < nb_etp; i++) {
+	eval("E"+i+".innerHTML=listeEtp[i-1].nom");
+}	
+
+//Boucle pour associer les liens.
+for (var i=1; i < nb_etp; i++) {
+	eval("E"+i+".innerHTML=listeEtp[i-1].nom");
+	eval("lien"+i+".href = listeEtp[i-1].lien");
+}
+
+
+
+
