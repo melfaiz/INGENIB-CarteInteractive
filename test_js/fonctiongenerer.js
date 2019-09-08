@@ -1,45 +1,47 @@
 function genere() { 
 
 var domaines = ["aero", "recherche", "sante","robot"];
-var LesActivite =[];
-var LesFillere =[];
+var LesActivite ='';
+var LesFillere ='';
 
 
 		if (telecombox.checked){ //si la case est coché
-			LesFillere.push('telecom');
+			LesFillere='telecom,';
 		}
 		  
 		//Pour les elec
 		if (elecbox.checked){ 
-			LesFillere.push('elec');
+			LesFillere=LesFillere+'elec,';
 		}
 	  
 		//Pour les mmk
 		if (mmkbox.checked){
-			LesFillere.push('mmk');
+			LesFillere=LesFillere+'mmk,';
 		}
 	  
 		//Pour les infos
-			if (infobox.checked){
-		LesFillere.push('info');
+		if (infobox.checked){
+			LesFillere=LesFillere+'info,';
 		}
+		
+LesFillere=LesFillere.slice(0,-1);
+		
+	domaines.forEach(function(item){
+		if (eval(""+item+"box.checked")){
+			LesActivite=LesActivite+item+',';
+		}
+	});
+	
+LesActivite=LesActivite.slice(0,-1);
 
-
-
-domaines.forEach(function(item){
-	if (eval(""+item+"box.checked")){
-		LesActivite.push(item);
-	}
-});
-
-ligne1.innerHTML= "Etp_ ={";
-ligne2.innerHTML= "nom: '___',";
+ligne1.innerHTML= "Etp"+NumStand.value+" ={";
+ligne2.innerHTML= "nom: '"+NomDeLEtp.value+"',";
 ligne3.innerHTML= "lien: 'https://www.ingenib.fr',";
-ligne4.innerHTML= "filiereRecherchee: ['__','__'],";
-ligne5.innerHTML= "activite: ['__','__'],";
-ligne6.innerHTML= "ipb: p5";
+ligne4.innerHTML= "filiereRecherchee: ["+LesFillere+"],";
+ligne5.innerHTML= "activite: ["+LesActivite+"],";
+ligne6.innerHTML= "ipb: p"+NumStand.value+"";
 ligne7.innerHTML= "};   //generer auto";
 
-
+navigator.Clipboard.writeText("<presse-papiers vide>");
 
 }
