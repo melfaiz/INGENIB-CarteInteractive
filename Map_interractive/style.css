@@ -25,3 +25,17 @@
 .mmk{
     fill:orange;
 }
+
+svg{
+	width:55%;
+	height:20%;
+}
+
+#map a:hover{
+    opacity: 0.4;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+    -o-transition: opacity .3s linear;
+    -moz-transition: opacity .3s linear;
+    -webkit-transition: opacity .3s linear;
+    transition: opacity .3s linear;
+}
