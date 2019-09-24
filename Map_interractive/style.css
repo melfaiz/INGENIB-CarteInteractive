@@ -27,7 +27,6 @@
 }
 
 svg{
-	width:55%;
 	height:20%;
 }
 
@@ -39,3 +38,4 @@ svg{
     -webkit-transition: opacity .3s linear;
     transition: opacity .3s linear;
 }
+

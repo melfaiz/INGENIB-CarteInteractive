@@ -152,40 +152,41 @@
 	<div class="container-fluid grey">
 		<div class="container" id="what">
 			<div class="row centered">
-				<div class="col-md-7">
 				<div>
-					<div>
+					<div display="flex">
 					<h2>Filière</h2>
 					<hr class="separator">
 					<form name="boxfillieres">
-
-						telecom <input type="checkbox" id="telecombox" value="checkbox"  onClick="boxfilliere()">
-						elec <input type="checkbox" id="elecbox" value="checkbox" onClick="boxfilliere()">
-						mathmeca <input type="checkbox" id="mmkbox" value="checkbox" onClick="boxfilliere()"> 
-						info <input type="checkbox" id="infobox" value="checkbox" onClick="boxfilliere()"> 
-
+					<table align="center">
+					<tr>
+						<td>telecom <input type="checkbox" id="telecombox" value="checkbox"  onClick="boxfilliere()"></td>
+						<td>elec <input type="checkbox" id="elecbox" value="checkbox" onClick="boxfilliere()"></td>
+						<td>mathmeca <input type="checkbox" id="mmkbox" value="checkbox" onClick="boxfilliere()"> </td>
+						<td>info <input type="checkbox" id="infobox" value="checkbox" onClick="boxfilliere()"> </td>
+					</tr>
+					</table>
 					</form>
-					</div>
-					
-					<div>
 					<h2>Ce qui m'interesse</h2>
 					<hr class="separator">
 					<form name="boxdomaines">
-
-						aeronautique <input type="checkbox" id="aerobox" value="checkbox"  onClick="domaines()">
-						santé <input type="checkbox" id="santebox" value="checkbox" onClick="domaines()">
-						recherche <input type="checkbox" id="recherchebox" value="checkbox" onClick="domaines()"> 
-						robot <input type="checkbox" id="robotbox" value="checkbox" onClick="domaines()"> 
-						Services Distribution <input type="checkbox" id="servbox" value="checkbox"  onClick="domaines()">
-						Télécom Multimédia <input type="checkbox" id="télécombox" value="checkbox" onClick="domaines()">
-						Energie Procédés <input type="checkbox" id="energiebox" value="checkbox" onClick="domaines()"> 
-						Transport <input type="checkbox" id="transportbox" value="checkbox" onClick="domaines()"> 
-						Banque,Finance,Assurance <input type="checkbox" id="banquebox" value="checkbox"  onClick="domaines()">
-						
-
+					<table align="center">
+					<tr>
+						<td>aeronautique <input type="checkbox" id="aerobox" value="checkbox"  onClick="domaines()"></td>
+						<td>santé <input type="checkbox" id="santebox" value="checkbox" onClick="domaines()"></td>
+						<td>recherche <input type="checkbox" id="recherchebox" value="checkbox" onClick="domaines()"> </td>
+					</tr><tr>	
+						<td>Services Distribution <input type="checkbox" id="servbox" value="checkbox"  onClick="domaines()"></td>
+						<td>Télécom Multimédia <input type="checkbox" id="télécombox" value="checkbox" onClick="domaines()"></td>
+						<td>Energie Procédés <input type="checkbox" id="energiebox" value="checkbox" onClick="domaines()"> </td>
+					</tr><tr>	
+						<td>robot <input type="checkbox" id="robotbox" value="checkbox" onClick="domaines()"> </td>
+						<td>Transport <input type="checkbox" id="transportbox" value="checkbox" onClick="domaines()"> </td>	
+						<td>Banque,Finance,Assurance <input type="checkbox" id="banquebox" value="checkbox"  onClick="domaines()"></td>
+					</tr>
+					</table>
 					</form>
 					</div>
-					<div class="map" align="left" >
+					<div class="maps" align="left" dislpay="flex">
 					<!-- RDC nouveau bâtiment -->
 					
 						 <svg width="580" height="400" xmlns="http://www.w3.org/2000/svg">
@@ -225,13 +226,13 @@
 								<title id='E7'> </title>
 						  <rect id="p7" height="40" width="49" y="100.45313" x="499.5" fill-opacity="null" stroke-opacity="null" stroke="#000" fill="none"/>
 						  </a>
-							<a id='lien8'>
-								<title id='E8'> </title>
-						  <rect id="p8" height="40" width="49" y="233.45313" x="191.5" fill-opacity="null" stroke-opacity="null" stroke="#000" fill="none"/>
+							<a id='lien58'>
+								<title id='E58'> </title>
+						  <rect id="p58" height="40" width="49" y="233.45313" x="191.5" fill-opacity="null" stroke-opacity="null" stroke="#000" fill="none"/>
 						  </a>
-							<a id='lien9'>
-								<title id='E9'> </title>
-						  <rect id="p9" height="40" width="49" y="238.45313" x="322.5" fill-opacity="null" stroke-opacity="null" stroke="#000" fill="none"/>
+							<a id='lien59'>
+								<title id='E59'> </title>
+						  <rect id="p59" height="40" width="49" y="238.45313" x="322.5" fill-opacity="null" stroke-opacity="null" stroke="#000" fill="none"/>
 						  </a>
 						   <a id='lien10'>
 								<title id='E10'> </title>
@@ -282,9 +283,9 @@
 								<title id='E12'> </title>
 						  <rect stroke="#000" id="svg_60" height="64.49996" width="40.99997" y="243.726522" x="336.249961" fill-opacity="null" stroke-opacity="null" stroke-width="0.5" fill="none"/>
 						  </a>
-							<a id='lien13'>
-								<title id='E13'> </title>
-						  <rect stroke="#000" id="svg_62" height="61.999945" width="40.99997" y="246.726533" x="227.750044" fill-opacity="null" stroke-opacity="null" stroke-width="0.5" fill="none"/>
+							<a id='lien8'>
+								<title id='E8'> </title>
+						  <rect stroke="#000" id="p8" height="61.999945" width="40.99997" y="246.726533" x="227.750044" fill-opacity="null" stroke-opacity="null" stroke-width="0.5" fill="none"/>
 						  </a>
 							<a id='lien14'>
 								<title id='E14'> </title>
@@ -413,18 +414,21 @@
 						</svg>
 						
 						
-					<!-- Sous-sol ancien bâtiment -->	
+					<!-- Sous-sol ancien bâtiment partie 1-->	
 						<svg width="580" height="399.99999999999994" xmlns="http://www.w3.org/2000/svg" stroke="null" style="vector-effect: non-scaling-stroke;">
 						 <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
 						 <g>
-						  <title>Layer 1</title>
+						 
 						  <path opacity="0.39" stroke="#000" transform="rotate(90.23847198486328 292.0038146972656,225.58940124511724) " id="svg_31" d="m116.366094,508.859384l65.864141,-566.539938l219.54715,0l65.864118,566.539938l-351.275409,0z" stroke-opacity="null" stroke-width="0.5" fill="#DDDDDD"/>
+						  <a id='lien37'>
+								<title id='E37'> </title>
 						  <rect id="svg_3" height="25" width="35.5" y="73.059898" x="63.58333" fill-opacity="null" stroke-opacity="null" stroke-width="0.5" stroke="#000" fill="none"/>
+						  </a>
 						  <rect id="svg_5" height="25" width="35.5" y="103.226563" x="16.750005" fill-opacity="null" stroke-opacity="null" stroke-width="0.5" stroke="#000" fill="none"/>
 						  <rect id="svg_6" height="25" width="35.5" y="136.226563" x="17.750005" fill-opacity="null" stroke-opacity="null" stroke-width="0.5" stroke="#000" fill="none"/>
 						  <rect id="svg_7" height="25" width="35.5" y="166.226563" x="17.75" fill-opacity="null" stroke-opacity="null" stroke-width="0.5" stroke="#000" fill="none"/>
-						  <rect stroke="#000" id="svg_8" height="59.000021" width="88.166671" y="248.39324" x="16.083332" fill-opacity="null" stroke-opacity="null" stroke-width="0.5" fill="none"/>
-						  <rect id="svg_9" height="25" width="35.5" y="81.393229" x="151.249997" fill-opacity="null" stroke-opacity="null" stroke-width="0.5" stroke="#000" fill="none"/>
+						  <rect stroke="#000" id="p60" height="59.000021" width="88.166671" y="248.39324" x="16.083332" fill-opacity="null" stroke-opacity="null" stroke-width="0.5" fill="none"/>
+						 <rect id="svg_9" height="25" width="35.5" y="81.393229" x="151.249997" fill-opacity="null" stroke-opacity="null" stroke-width="0.5" stroke="#000" fill="none"/>
 						  <rect id="svg_10" height="25" width="35.5" y="85.226564" x="195.749997" fill-opacity="null" stroke-opacity="null" stroke-width="0.5" stroke="#000" fill="none"/>
 						  <rect id="svg_11" height="25" width="35.5" y="91.226564" x="239.749997" fill-opacity="null" stroke-opacity="null" stroke-width="0.5" stroke="#000" fill="none"/>
 						  <rect id="svg_12" height="25" width="35.5" y="121.726564" x="277.749997" fill-opacity="null" stroke-opacity="null" stroke-width="0.5" stroke="#000" fill="none"/>
@@ -433,7 +437,6 @@
 						  <rect id="svg_15" height="25" width="35.5" y="177.893229" x="185.083333" fill-opacity="null" stroke-opacity="null" stroke-width="0.5" stroke="#000" fill="none"/>
 						  <rect id="svg_16" height="25" width="35.5" y="179.226563" x="225.416665" fill-opacity="null" stroke-opacity="null" stroke-width="0.5" stroke="#000" fill="none"/>
 						  <rect id="svg_21" height="25" width="35.5" y="167.726563" x="-64.630944" fill-opacity="null" stroke-opacity="null" stroke-width="0.5" stroke="#000" fill="none"/>
-						  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="9" id="svg_25" y="137.635412" x="-204.99999" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">dzdzdz</text>
 						  <rect id="svg_27" height="25" width="35.5" y="71.726564" x="16.916672" fill-opacity="null" stroke-opacity="null" stroke-width="0.5" stroke="#000" fill="none"/>
 						  <rect id="svg_32" height="25" width="35.5" y="179.89323" x="266.749999" fill-opacity="null" stroke-opacity="null" stroke-width="0.5" stroke="#000" fill="none"/>
 						  <rect id="svg_33" height="25" width="35.5" y="182.559896" x="308.083333" fill-opacity="null" stroke-opacity="null" stroke-width="0.5" stroke="#000" fill="none"/>
@@ -450,7 +453,8 @@
 						  <rect id="svg_46" height="25" width="35.5" y="323.059903" x="393.583328" fill-opacity="null" stroke-opacity="null" stroke-width="0.5" stroke="#000" fill="none"/>
 						  <rect id="svg_47" height="25" width="35.5" y="317.059903" x="432.916682" fill-opacity="null" stroke-opacity="null" stroke-width="0.5" stroke="#000" fill="none"/>
 						  <rect id="svg_48" height="25" width="35.5" y="313.726559" x="474.916672" fill-opacity="null" stroke-opacity="null" stroke-width="0.5" stroke="#000" fill="none"/>
-						  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_49" y="46.302078" x="212.333332" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">Sous-sol Rue (côté oeuf)</text>
+						 
+						 <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_49" y="46.302078" x="212.333332" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">Sous-sol Rue (côté oeuf)</text>
 						  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="15" id="svg_50" y="285.635412" x="37.666667" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">Buffet</text>
 						  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="9" id="svg_51" y="181.635412" x="23.333333" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">Modis</text>
 						  <text stroke="#000" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="9" id="svg_52" y="150.968745" x="26" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#000000">Ikos</text>
@@ -485,8 +489,58 @@
 						 </g>
 						</svg>
 						
+						
+					<!-- Sous-sol ancien bâtiment partie 2 -->
+						<svg width="580" height="399.99999999999994" xmlns="http://www.w3.org/2000/svg">
+						 <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+						 <g>
+						<a id='lien37'>
+								<title id='E37'> </title>
+						  <rect stroke="#000" opacity="0.17" id="svg_17" height="212.00148" width="566.67064" y="96.83261" x="11.16464" fill-opacity="null" stroke-opacity="null" stroke-width="0.5" fill="#DDDDDD"/>
+						  </a>
+						  <rect fill="none" stroke="#000" stroke-width="0.5" stroke-opacity="null" fill-opacity="null" x="426.08344" y="270.5605" width="35.5" height="25" id="svg_81"/>
+						  <rect fill="none" stroke="#000" stroke-width="0.5" stroke-opacity="null" fill-opacity="null" x="468.75011" y="270.5605" width="35.5" height="25" id="svg_82"/>
+						  <rect fill="none" stroke="#000" stroke-width="0.5" stroke-opacity="null" fill-opacity="null" x="510.08345" y="271.22719" width="35.5" height="25" id="svg_83"/>
+						  <a id='lien9'>
+								<title id='E9'> </title>
+						 <rect stroke="#000" fill="none" stroke-width="0.5" stroke-opacity="null" fill-opacity="null" x="38.74768" y="111.89273" width="73.99967" height="25" id="p9"/>
+							</a>
+						<rect fill="none" stroke="#000" stroke-width="0.5" stroke-opacity="null" fill-opacity="null" x="123.41434" y="111.89273" width="35.5" height="25" id="svg_21"/>
+						  <rect fill="none" stroke="#000" stroke-width="0.5" stroke-opacity="null" fill-opacity="null" x="164.74769" y="112.55941" width="35.5" height="25" id="svg_22"/>
+						  <rect fill="none" stroke="#000" stroke-width="0.5" stroke-opacity="null" fill-opacity="null" x="229.41569" y="109.22604" width="35.5" height="25" id="svg_30"/>
+						  <rect fill="none" stroke="#000" stroke-width="0.5" stroke-opacity="null" fill-opacity="null" x="271.41569" y="109.22604" width="35.5" height="25" id="svg_31"/>
+						  <rect fill="none" stroke="#000" stroke-width="0.5" stroke-opacity="null" fill-opacity="null" x="314.08236" y="109.22604" width="35.5" height="25" id="svg_32"/>
+						  <rect fill="none" stroke="#000" stroke-width="0.5" stroke-opacity="null" fill-opacity="null" x="355.41571" y="109.89273" width="35.5" height="25" id="svg_33"/>
+						  <rect fill="none" stroke="#000" stroke-width="0.5" stroke-opacity="null" fill-opacity="null" x="438.08353" y="109.22604" width="35.5" height="25" id="svg_54"/>
+						  <rect fill="none" stroke="#000" stroke-width="0.5" stroke-opacity="null" fill-opacity="null" x="480.75019" y="109.22604" width="35.5" height="25" id="svg_55"/>
+						  <rect fill="none" stroke="#000" stroke-width="0.5" stroke-opacity="null" fill-opacity="null" x="522.08354" y="109.89273" width="35.5" height="25" id="svg_56"/>
+						  <rect fill="none" stroke="#000" stroke-width="0.5" stroke-opacity="null" fill-opacity="null" x="97.41475" y="271.89385" width="35.5" height="25" id="svg_34"/>
+						  <rect fill="none" stroke="#000" stroke-width="0.5" stroke-opacity="null" fill-opacity="null" x="139.41475" y="271.89385" width="35.5" height="25" id="svg_35"/>
+						  <rect fill="none" stroke="#000" stroke-width="0.5" stroke-opacity="null" fill-opacity="null" x="182.08141" y="271.89385" width="35.5" height="25" id="svg_36"/>
+						  <rect fill="none" stroke="#000" stroke-width="0.5" stroke-opacity="null" fill-opacity="null" x="223.41476" y="272.56054" width="35.5" height="25" id="svg_37"/>
+						  <rect stroke="#000" id="svg_90" height="49.33368" width="165.33449" y="173.99984" x="247.99971" fill-opacity="null" stroke-opacity="null" stroke-width="0.5" fill="none"/>
+						  
+						  <text style="cursor: move;" fill="#000000" stroke="#000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="444.0002" y="124.96822" id="svg_59" font-size="9" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">Dolist</text>
+						  <text style="cursor: move;" fill="#000000" stroke="#000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="484.83352" y="124.46817" id="svg_60" font-size="9" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">Betclic</text>
+						  <text fill="#000000" stroke="#000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="519.66691" y="145.30145" id="svg_63" font-size="9" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">Fabernovel</text>
+						  <text fill="#000000" stroke="#000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="212.33333" y="46.30208" id="svg_49" font-size="24" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">Sous-sol Rue (2eme partie)</text>
+						  <text fill="#000000" stroke="#000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="58.66667" y="-8.36459" id="svg_57" font-size="9" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">Sens 4</text>
+						  <text fill="#000000" stroke="#000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="423.00019" y="264.80287" id="svg_85" font-size="9" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">Accenture</text>
+						  <text fill="#000000" stroke="#000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="475.66675" y="287.3027" id="svg_87" font-size="9" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">Smile</text>
+						  <text fill="#000000" stroke="#000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="514.66676" y="287.13608" id="svg_89" font-size="9" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">Buage</text>
+						  <text fill="#000000" stroke="#000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="124.33104" y="127.63493" id="svg_27" font-size="9" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">Diginext</text>
+						  <text fill="#000000" stroke="#000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="166.66435" y="122.3016" id="svg_28" font-size="9" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">Margo</text>
+						  <text fill="#000000" stroke="#000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="166.83102" y="132.46827" id="svg_29" font-size="9" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">Conseil</text>
+						  <text fill="#000000" stroke="#000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="264.33248" y="105.96839" id="svg_39" font-size="9" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">Betomorrow</text>
+						  <text fill="#000000" stroke="#000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="311.16574" y="143.968" id="svg_40" font-size="9" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">Wavestone</text>
+						  <text fill="#000000" stroke="#000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="363.99898" y="123.80159" id="svg_52" font-size="9" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">4SH</text>
+						  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="15" id="svg_92" y="204.66672" x="301.33341" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">Escalier</text>
+						  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="9" id="svg_93" y="127.25063" x="60.49948" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">Ubisoft</text>
+						  <text fill="#000000" stroke="#000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="218.16391" y="143.30138" id="svg_94" font-size="9" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">Campana</text>
+						  <text fill="#000000" stroke="#000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="221.33055" y="149.96808" id="svg_95" font-size="9" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">&amp; schott</text>
+						 </g>
+						</svg>
 					</div>
-				</div>
 				</div>
 				
 			</div>
