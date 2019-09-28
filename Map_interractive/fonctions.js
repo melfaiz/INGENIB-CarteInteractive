@@ -126,6 +126,24 @@
 			}
 		}
 
+		
+function rechercheetp(){
+	for (var i=1; i < nb_etp; i++) {
+		if(listeEtp[i-1].nom==choixept.value){
+				elem = document.querySelectorAll("rect"); 
+				for (var j=0; j < elem.length; j++) {
+					elem[j].setAttribute("class", "hiden");  //Changer la classe to hiden
+				}
+				listeEtp[i-1].ipb.setAttribute("class", "activ");
+				
+		}
+	}
+	
+}
+function resume(balise){
+
+}	
+		
 //Boucle pour associer les noms.
 for (var i=1; i < nb_etp; i++) {
 	eval("E"+i+".innerHTML=listeEtp[i-1].nom");
@@ -133,10 +151,16 @@ for (var i=1; i < nb_etp; i++) {
 
 //Boucle pour associer les liens.
 for (var i=1; i < nb_etp; i++) {
-	eval("E"+i+".innerHTML=listeEtp[i-1].nom");
-	eval("lien"+i+".href = listeEtp[i-1].lien");
+	eval("document.getElementById('p"+i+"').href = 'caca'");
 }
 
+//Boucle pour la recherche
 
+var str=''; // variable to store the options
+for (var i=1; i < nb_etp; i++) {
+str += '<option value="'+listeEtp[i-1].nom+'" />'; // Storing options in variable
+}
+
+laliste.innerHTML = str;
 
 
