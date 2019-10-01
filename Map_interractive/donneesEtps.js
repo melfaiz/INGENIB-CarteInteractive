@@ -1,14 +1,9 @@
 
-
-
-
-var nb_etp=9;
-
 var Etp1 ={
 	nom: 'Spie',
 	lien: 'https://www.ingenib.fr/students/catalogue/diginext',
 	filiereRecherchee: ['telecom','info'],
-	activite: ['aero'],
+	activite: ['aero','militaire'],
 	ipb: p1     //ici est stoké la balise d'id p1
 };
 var Etp2 ={
@@ -75,4 +70,11 @@ var Etp9 ={
 	ipb: p9
 };
 
-listeEtp=[Etp1,Etp2,Etp3,Etp4,Etp5,Etp6,Etp7,Etp8,Etp9];
+
+
+var nb_etp=9;
+
+listeEtp=[];
+for (var i=1; i < nb_etp+1; i++)  {
+	eval("listeEtp.push(Etp"+i+")");
+}

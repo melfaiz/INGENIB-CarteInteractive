@@ -1,8 +1,4 @@
-.map{
-	
-}
-.maps{
-}
+
 
 .row-title-hr-company {
     background-color: rgb(0, 132, 180);
@@ -63,8 +59,8 @@ rect:hover{
 }
 
 svg{
-	height:20%;
-	display: flex;
+	margin: 5px;
+	border: 0.3mm solid black;
 }
 
 #map a:hover{
@@ -74,5 +70,9 @@ svg{
     -moz-transition: opacity .3s linear;
     -webkit-transition: opacity .3s linear;
     transition: opacity .3s linear;
+}
+
+#lesdomaines tr td input{
+	
 }
 
