@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>generateur database</title>
+  <link rel="stylesheet" href="style.css" type="text/css" media="screen"/>
+  <script type="text/javascript" src="fonctiongenerer.js" defer> </script>
+  
+
+</head>
+<body>
+<h2>Generateur pour base de donné</h2>
+
+<div>
+
+<h3>Nom de l'entreprise</h3>
+<INPUT id='NomDeLEtp' VALUE="">
+<h3>Numéro du stand</h3>
+<INPUT id='NumStand' VALUE="">
+
+<form name="boxfillieres">
+
+	<h3>Filière</h3>
+	telecom <input type="checkbox" id="telecombox" value="checkbox">
+	elec <input type="checkbox" id="elecbox" value="checkbox">
+	mathmeca <input type="checkbox" id="mmkbox" value="checkbox"> 
+	info <input type="checkbox" id="infobox" value="checkbox"> 
+	RSI <input type="checkbox" id="rsibox" value="checkbox"> 
+	SEE <input type="checkbox" id="seebox" value="checkbox"> 
+	optique <input type="checkbox" id="optiquebox" value="checkbox"> 
+	l'autre truc ENSC <input type="checkbox" id="enscbox" value="checkbox"> 
+
+	<h3>Activité</h3>
+	<div id='lesdomaines'>
+	</div>
+</form>
+</br>
+	<input type="button" value="generer" onClick="genere()">
+</div>
+<div>
+</br></br>
+<p></p>
+<h4 id='ligne1' style='Line-Height: 0pt'>resultat </>
+<h4 id='ligne2' style='Line-Height: 0pt'></h4>
+<h4 id='ligne3' style='Line-Height: 0pt'></h4>
+<h4 id='ligne4' style='Line-Height: 0pt'></h4>
+<h4 id='ligne5' style='Line-Height: 0pt'></h4>
+<h4 id='ligne6' style='Line-Height: 0pt'></h4>
+<h4 id='ligne7' style='Line-Height: 0pt'></h4>
+<p></p>
+
+</div>
+</body>
+</html>
