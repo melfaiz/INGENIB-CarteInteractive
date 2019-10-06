@@ -17,12 +17,43 @@
 	rx: 5;
 	ry: 5;
 	}
-	
-	
+
+#application{
+  display: flex;
+    text-align-last: center;
+    width: 90%;
+    margin: 5%;
+}
+
+    .containchecks {
+      display: flex;
+      position: relative;
+      padding-left: 50px;
+      margin-bottom: 7px;
+      cursor: pointer;
+      font-size: 14px;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      width: 160px;
+      height: 30px;
+    }
+
+
+
+.customtexte{
+  font-family: 'Verdana', sans-serif;
+   font-weight: 500;
+   color: #4f5961;
+   line-height: 1.1em;
+}
+
+
 rect{
 	pointer-events: all;
 }
-	
+
 rect:hover{
 	-o-transition: opacity .3s linear;
     -moz-transition: opacity .3s linear;
@@ -36,7 +67,12 @@ rect:hover{
 	ry: 5;
 }
 
-
+.boxform{
+  display: grid;
+}
+.leslignes{
+  display: inline-flex;
+}
 .hiden{
 	fill:gray;
 	fill-opacity: 0.5;
@@ -59,8 +95,8 @@ rect:hover{
 }
 
 svg{
-	margin: 5px;
-	border: 0.3mm solid black;
+  margin: 10px;
+  box-shadow:1px 0.5px 3px 1px rgba(0, 0, 0, 0.40);
 }
 
 #map a:hover{
@@ -72,18 +108,39 @@ svg{
     transition: opacity .3s linear;
 }
 
+.lesboutons{
+  background-color: white;
+  color:#1D49C2;
+   border-radius: 10px;
+   border: 1px #3c78ab solid ;
+   align-self: center;
+}
+.lesboutons:hover{
+  background-color: #337ab7;
+  color:#fff;
+   border-radius: 10px;
+   border: 1px #ffffff solid ;
+   transition-duration: 0.2s;
+}
+
+.bontonnavigation{
+  display: block;
+}
 
 .maps{
-	display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+  margin: 50px;
+  padding: 35px;
 }
+.smallbox {
+    background-color:  #b8c2d221;
+    border-top: #337ab7 solid;
+    border-right: : #337ab7 solid;
+    width: auto;
+    margin: 8px;
+    padding: 10px;
+		box-shadow:1px 0.5px 3px 1px rgba(0, 0, 0, 0.40);
+    border-radius: 3px;
+      }
 
-
-.container-fluid td{
-	min-width: 150px;
-}
-
-.formulaire{
-	padding: 100px;
+.TitreForm{
 }
