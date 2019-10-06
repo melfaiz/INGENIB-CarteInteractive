@@ -72,7 +72,18 @@ svg{
     transition: opacity .3s linear;
 }
 
-#lesdomaines tr td input{
-	
+
+.maps{
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
+
+.container-fluid td{
+	min-width: 150px;
+}
+
+.formulaire{
+	padding: 100px;
+}
