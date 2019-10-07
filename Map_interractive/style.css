@@ -114,6 +114,7 @@ svg{
    border-radius: 10px;
    border: 1px #3c78ab solid ;
    align-self: center;
+   	box-shadow:1px 0.5px 3px 0px rgba(0, 0, 0, 0.40);
 }
 .lesboutons:hover{
   background-color: #337ab7;
@@ -126,21 +127,40 @@ svg{
 .bontonnavigation{
   display: block;
 }
-
+.bontonnavigation .lesboutons{
+  border: 1px rgb(123,153,54) solid ;
+  color:rgb(123,153,54);
+}
+.bontonnavigation .lesboutons:hover{
+  background-color: rgb(123,153,54);
+  color:#fff;
+}
 .maps{
   margin: 50px;
   padding: 35px;
 }
 .smallbox {
     background-color:  #b8c2d221;
-    border-top: #337ab7 solid;
-    border-right: : #337ab7 solid;
+
     width: auto;
     margin: 8px;
     padding: 10px;
 		box-shadow:1px 0.5px 3px 1px rgba(0, 0, 0, 0.40);
     border-radius: 3px;
       }
+
+#box1{
+      border-top: #337ab7 solid;
+}
+
+#box2{
+      border-top: rgb(245, 149, 54) solid;
+}
+
+#box3{
+      border-top: rgb(123,153,54) solid;
+}
+
 
 .TitreForm{
 }
