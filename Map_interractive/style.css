@@ -20,9 +20,11 @@
 
 #application{
   display: flex;
-    text-align-last: center;
-    width: 90%;
-    margin: 5%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align-last: center;
+  width: 90%;
+  margin: 5%;
 }
 
     .containchecks {
@@ -136,8 +138,7 @@ svg{
   color:#fff;
 }
 .maps{
-  margin: 50px;
-  padding: 35px;
+  margin-top: 35px;
 }
 .smallbox {
     background-color:  #b8c2d221;
