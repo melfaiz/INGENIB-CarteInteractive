@@ -1,0 +1,170 @@
+
+
+.row-title-hr-company {
+    background-color: rgb(0, 132, 180);
+	border-style: none;
+    border-width: 0;
+    margin: 33px auto 50px;
+    width: 100px;
+    height: 5px;
+}
+.activ{
+	fill:#b50cf5;
+	fill-opacity: 0.5;
+	stroke-width:7;
+	stroke-opacity: 0.5;
+	stroke: #b50cf5;
+	rx: 5;
+	ry: 5;
+	}
+
+#application{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align-last: center;
+  opacity: 0.9;
+  width: 90%;
+  margin: 5%;
+}
+
+    .containchecks {
+      display: flex;
+      position: relative;
+      padding-left: 10px;
+      margin-bottom: 7px;
+      cursor: pointer;
+      font-size: 8px;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      width: 80px;
+      height: 15px;
+    }
+
+
+
+.customtexte{
+  font-family: 'Verdana', sans-serif;
+   font-weight: 500;
+   font-size: 10px;
+   color: #4f5961;
+   line-height: 1.1em;
+}
+
+
+rect{
+	pointer-events: all;
+}
+
+rect:hover{
+	-o-transition: opacity .3s linear;
+    -moz-transition: opacity .3s linear;
+    -webkit-transition: opacity .3s linear;
+    fill-opacity: 0.5;
+	fill:#33cc33;
+	stroke-width:7;
+	stroke-opacity: 0.5;
+	stroke: #33cc33;
+	rx: 5;
+	ry: 5;
+}
+
+.boxform{
+  display: grid;
+}
+.leslignes{
+  display: inline-flex;
+}
+.hiden{
+	fill:gray;
+	fill-opacity: 0.5;
+}
+
+.telecom{
+    fill:greenyellow;
+}
+
+.info{
+    fill:red;
+}
+
+.elec{
+    fill:blue;
+}
+
+.mmk{
+    fill:orange;
+}
+
+svg{
+  margin: 10px;
+  box-shadow:1px 0.5px 3px 1px rgba(0, 0, 0, 0.40);
+}
+
+#map a:hover{
+    opacity: 0.4;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+    -o-transition: opacity .3s linear;
+    -moz-transition: opacity .3s linear;
+    -webkit-transition: opacity .3s linear;
+    transition: opacity .3s linear;
+}
+
+.lesboutons{
+  background-color: white;
+  color:#1D49C2;
+   border-radius: 10px;
+   border: 1px #3c78ab solid ;
+   align-self: center;
+   box-shadow:1px 0.5px 3px 0px rgba(0, 0, 0, 0.40);
+}
+.lesboutons:hover{
+  background-color: #337ab7;
+  color:#fff;
+   border-radius: 10px;
+   border: 1px #ffffff solid ;
+   transition-duration: 0.2s;
+}
+
+.bontonnavigation{
+  display: block;
+}
+.bontonnavigation .lesboutons{
+  border: 1px rgb(123,153,54) solid ;
+  color:rgb(123,153,54);
+}
+.bontonnavigation .lesboutons:hover{
+  background-color: rgb(123,153,54);
+  color:#fff;
+}
+.maps{
+  margin-top: 35px;
+}
+.smallbox {
+    background-color:  #b8c2d221;
+
+    width: 350px;
+    margin: 8px;
+    font-size: 8px;
+    padding: 10px;
+		box-shadow:1px 0.5px 3px 1px rgba(0, 0, 0, 0.40);
+    border-radius: 3px;
+      }
+
+#box1{
+      border-top: #337ab7 solid;
+}
+
+#box2{
+      border-top: rgb(245, 149, 54) solid;
+}
+
+#box3{
+      border-top: rgb(123,153,54) solid;
+}
+
+
+.TitreForm{
+}

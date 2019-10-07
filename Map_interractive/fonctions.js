@@ -134,29 +134,62 @@ function rechercheetp(){
 }
 
 function afficherue(){
+	if (screen.width>800) {
 	document.getElementById("AncienBatiment").style.removeProperty( 'display' );
 	document.getElementById("SousSol").style.display = "none";
 	document.getElementById("SousSolDeux").style.display = "none";
 	document.getElementById("lamaparelever").style.display = "none";
+	}
+	else{
+		document.getElementById("ABMobile").style.removeProperty( 'display' );
+		document.getElementById("SousSolMobile").style.display = "none";
+		document.getElementById("SousSolDeuxMobile").style.display = "none";
+		document.getElementById("NBMobile").style.display = "none";
+	}
 }
 
 function affichenb(){
+	if (screen.width>800) {
 	document.getElementById("lamaparelever").style.removeProperty( 'display' );
 	document.getElementById("SousSol").style.display = "none";
 	document.getElementById("SousSolDeux").style.display = "none";
 	document.getElementById("AncienBatiment").style.display = "none";
 }
+else{
+	document.getElementById("NBMobile").style.removeProperty( 'display' );
+	document.getElementById("SousSolDeuxMobile").style.display = "none";
+	document.getElementById("SousSolMobile").style.display = "none";
+	document.getElementById("ABMobile").style.display = "none";
+}
+
+}
 
 function affichessl(){
+	if (screen.width>800) {
 	document.getElementById("SousSol").style.removeProperty( 'display' );
 	document.getElementById("lamaparelever").style.display = "none";
 	document.getElementById("SousSolDeux").style.display = "none";
 	document.getElementById("AncienBatiment").style.display = "none";
 }
+else{
+	document.getElementById("SousSolMobile").style.removeProperty( 'display' );
+	document.getElementById("SousSolDeuxMobile").style.display = "none";
+	document.getElementById("NBMobile").style.display = "none";
+	document.getElementById("ABMobile").style.display = "none";
+}
+}
 
 function affichess2(){
+	if (screen.width>800) {
 	document.getElementById("SousSolDeux").style.removeProperty( 'display' );
 	document.getElementById("SousSol").style.display = "none";
 	document.getElementById("lamaparelever").style.display = "none";
 	document.getElementById("AncienBatiment").style.display = "none";
+}
+else{
+	document.getElementById("SousSolDeuxMobile").style.removeProperty( 'display' );
+	document.getElementById("SousSolMobile").style.display = "none";
+	document.getElementById("NBMobile").style.display = "none";
+	document.getElementById("ABMobile").style.display = "none";
+}
 }

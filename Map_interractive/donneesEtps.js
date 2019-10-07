@@ -6,20 +6,20 @@ var Etp1 ={
 	lien: 'https://www.ingenib.fr/students/catalogue/spie',
 	filiereRecherchee: ['telecom','info','rsi'],
 	activite: ['mecanique','telecommuication','microelec'],
-	ipb: p1}; //generer auto
+	ipb: application}; //generer auto
 var Etp2 ={
 	nom: 'Ingeliance Technologies',
 	lien: 'https://www.ingenib.fr/students/catalogue/ingeliance',
 	filiereRecherchee: ['mmk','info','see'],
 	activite: ['mecanique','aero','automobile'],
-	ipb: p1}; //generer auto
+	ipb: application}; //generer auto
 
 var Etp3 ={
 	nom: 'Meritis',
 	lien: 'https://www.ingenib.fr/students/catalogue/meritis',
 	filiereRecherchee: ['telecom','elec','mmk','info','rsi','see'],
 	activite: ['mecanique','informatique','programmation','telecommuication','services','banque','indu','assurance'],
-	ipb: p1}; //generer auto
+	ipb: application}; //generer auto
 
 
 var Etp4 ={
@@ -27,7 +27,7 @@ var Etp4 ={
 	lien: 'https://www.ingenib.fr/students/catalogue/quicit',
 	filiereRecherchee: ['mmk','info'],
 	activite: ['mecanique','informatique','programmation'],
-	ipb: p1}; //generer auto
+	ipb: application}; //generer auto
 
 
 var Etp5 ={
@@ -35,42 +35,42 @@ var Etp5 ={
 	lien: 'https://www.ingenib.fr/students/catalogue/Tehtris',
 	filiereRecherchee: ['telecom','elec','info'],
 	activite: ['mecanique','informatique','programmation','editlogi','automobile','ecommerce','assurance','transport'],
-	ipb: p1}; //generer auto
+	ipb: application}; //generer auto
 
 var Etp6 ={
 	nom: "CS système d'information",
 	lien: 'https://www.ingenib.fr/students/catalogue/CS',
 	filiereRecherchee: ['info','rsi','see'],
 	activite: ['militaire','informatique','intsys','defense','aero','transport'],
-	ipb: p1}; //generer auto
+	ipb: application}; //generer auto
 
 var Etp7 ={
 	nom: 'NXP',
 	lien: 'https://www.ingenib.fr/students/catalogue/NXP',
 	filiereRecherchee: ['telecom','elec','info','see'],
 	activite: ['informatique','intsys','automobile','telecommuication','services'],
-	ipb: p1}; //generer auto
+	ipb: application}; //generer auto
 
 var Etp8 ={
 	nom: 'AKKA',
 	lien: 'https://www.ingenib.fr/students/catalogue/AKKA',
 	filiereRecherchee: ['telecom','elec','mmk','info','rsi','see','cognitif'],
 	activite: ['programmation','editlogi','defense','aero','automobile','telecommuication','services'],
-	ipb: p1}; //generer auto
+	ipb: application}; //generer auto
 
 var Etp9 ={
 	nom: 'Orange',
 	lien: 'https://www.ingenib.fr/students/catalogue/orange',
 	filiereRecherchee: ['telecom','info','rsi'],
 	activite: ['informatique','programmation','intsys','editlogi','telecommuication','services'],
-	ipb: p1}; //generer auto
+	ipb: application}; //generer auto
 
 var Etp10 ={
 nom: 'Bouygues',
 lien: 'https://www.ingenib.fr/students/catalogue/bouygues',
 filiereRecherchee: ['telecom','info','rsi'],
 activite: ['informatique','programmation','intsys','editlogi','telecommuication','services'],
-ipb: p1
+ipb: application
 }; //generer auto
 
 var Etp11 ={
@@ -78,7 +78,7 @@ var Etp11 ={
 	lien: 'https://www.ingenib.fr/students/catalogue',
 	filiereRecherchee: ['telecom','info'],
 	activite: ['informatique','programmation','intsys','editlogi','services','log3d'],
-	ipb: p1
+	ipb: application
 }; //generer auto
 
 var Etp12 ={
@@ -86,7 +86,7 @@ var Etp12 ={
 	lien: 'https://www.ingenib.fr/students/catalogue/supralog',
 	filiereRecherchee: ['telecom','info','rsi'],
 	activite: ['informatique','programmation','intsys','editlogi','startup','services','entrepri'],
-	ipb: p1
+	ipb: application
 }; //generer auto
 
 var Etp13 ={
@@ -94,7 +94,7 @@ var Etp13 ={
 	lien: 'https://www.ingenib.fr/students/catalogue/apside',
 	filiereRecherchee: ['mmk','info','rsi','see','cognitif'],
 	activite: ['automobile','sante','banque','indu','assurance'],
-	ipb: p1
+	ipb: application
 }; //generer auto
 
 var Etp14 ={
@@ -102,7 +102,7 @@ var Etp14 ={
 	lien: 'https://www.ingenib.fr/students/catalogue/onet',
 	filiereRecherchee: ['telecom','elec','mmk','info'],
 	activite: ['informatique','aero','services'],
-	ipb: p1
+	ipb: application
 }; //generer auto
 
 var Etp15 ={
@@ -110,7 +110,7 @@ var Etp15 ={
 	lien: 'https://www.ingenib.fr/students/catalogue/',
 	filiereRecherchee: ['info','rsi'],
 	activite: ['programmation','banque','entrepri'],
-	ipb: p1
+	ipb: application
 }; //generer auto
 
 
@@ -119,7 +119,7 @@ Etp16 ={
 	lien: 'https://www.ingenib.fr/students/catalogue',
 	filiereRecherchee: ['elec','mmk','info','rsi','see'],
 	activite: ['militaire','mecanique','energie','informatique','programmation','intsys','editlogi','defense','aero','automobile','sante','services','indu','entrepri','microelec'],
-	ipb: p1
+	ipb: application
 }; //generer auto
 
 
@@ -128,7 +128,7 @@ var Etp17 ={
 	lien: 'https://www.ingenib.fr/students/catalogue',
 	filiereRecherchee: ['telecom','info','rsi','see'],
 	activite: ['informatique','programmation','intsys','telecommuication','entrepri'],
-	ipb: p1
+	ipb: application
 }; //generer auto
 
 var Etp18 ={
@@ -136,7 +136,7 @@ var Etp18 ={
 	lien: 'https://www.ingenib.fr/students/catalogue',
 	filiereRecherchee: ['telecom','mmk','info','rsi','see'],
 	activite: ['militaire','informatique','programmation','intsys','defense','telecommuication','log3d'],
-	ipb: p1
+	ipb: application
 }; //generer auto
 
 var Etp19 ={
@@ -144,7 +144,7 @@ var Etp19 ={
 	lien: 'https://www.ingenib.fr/students/catalogue',
 	filiereRecherchee: ['telecom','elec','mmk','info'],
 	activite: ['informatique','programmation','intsys','defense','sante','banque','assurance'],
-	ipb: p1
+	ipb: application
 }; //generer auto
 
 var Etp20 ={
@@ -152,7 +152,7 @@ var Etp20 ={
 	lien: 'https://www.ingenib.fr/students/catalogue',
 	filiereRecherchee: ['telecom','elec','mmk','info'],
 	activite: ['informatique','programmation','intsys','editlogi','services','assurance'],
-	ipb: p1
+	ipb: application
 }; //generer auto
 
 var Etp21 ={
@@ -160,7 +160,7 @@ var Etp21 ={
 	lien: 'https://www.ingenib.fr/students/catalogue',
 	filiereRecherchee: ['info','rsi'],
 	activite: ['informatique','programmation','intsys','editlogi','services'],
-	ipb: p1
+	ipb: application
 }; //generer auto
 
 var Etp22 ={
@@ -168,7 +168,7 @@ var Etp22 ={
 	lien: 'https://www.ingenib.fr/students/catalogue',
 	filiereRecherchee: ['telecom','info','rsi','cognitif'],
 	activite: ['energie','informatique','programmation','intsys','editlogi','services','log3d','entrepri'],
-	ipb: p1
+	ipb: application
 }; //generer auto
 
 Etp23 ={
@@ -176,7 +176,7 @@ Etp23 ={
 	lien: 'https://www.ingenib.fr/students/catalogue',
 	filiereRecherchee: ['telecom','elec','info','rsi','see','cognitif'],
 	activite: ['energie','informatique','programmation','intsys','editlogi','ecommerce','services','log3d','entrepri'],
-	ipb: p1
+	ipb: application
 }; //generer auto
 
 
@@ -186,7 +186,7 @@ var Etp24 ={
 	lien: 'https://www.ingenib.fr/students/catalogue',
 	filiereRecherchee: ['elec','info','rsi','see'],
 	activite: ['informatique','programmation','intsys','editlogi','defense','aero','automobile','services','assurance'],
-	ipb: p1
+	ipb: application
 }; //generer auto
 
 var Etp25 ={
@@ -194,7 +194,7 @@ var Etp25 ={
 	lien: 'https://www.ingenib.fr/students/catalogue',
 	filiereRecherchee: ['info','rsi'],
 	activite: ['informatique','programmation','intsys','editlogi','services','log3d'],
-	ipb: p1
+	ipb: application
 }; //generer auto
 
 var Etp26 ={
@@ -202,7 +202,7 @@ var Etp26 ={
 	lien: 'https://www.ingenib.fr/students/catalogue',
 	filiereRecherchee: ['info','rsi'],
 	activite: ['informatique','editlogi','services'],
-	ipb: p1
+	ipb: application
 }; //generer auto
 
 var Etp27 ={
@@ -210,7 +210,7 @@ var Etp27 ={
 	lien: 'https://www.ingenib.fr/students/catalogue',
 	filiereRecherchee: ['info'],
 	activite: ['informatique','editlogi','services'],
-	ipb: p1
+	ipb: application
 }; //generer auto
 
 
@@ -219,7 +219,7 @@ var Etp28 ={
 	lien: 'https://www.ingenib.fr/students/catalogue',
 	filiereRecherchee: ['telecom','elec','info','see'],
 	activite:['militaire','informatique','programmation','editlogi','services','log3d','entrepri','microelec'],
-	ipb: p1
+	ipb: application
 }; //generer auto
 
 var Etp29 ={
@@ -227,7 +227,7 @@ var Etp29 ={
 	lien: 'https://www.ingenib.fr/students/catalogue',
 	filiereRecherchee: ['telecom','elec','mmk','info','see','cognitif'],
 	activite: ['mecanique','energie','informatique','programmation','editlogi','defense','aero','automobile','telecommuication','services','log3d','indu','entrepri','microelec'],
-	ipb: p1
+	ipb: application
 }; //generer auto
 
 
@@ -236,7 +236,7 @@ var Etp30 ={
 	lien: 'https://www.ingenib.fr/students/catalogue',
 	filiereRecherchee: ['telecom','info','rsi'],
 	activite: ['informatique','programmation','intsys','editlogi','services','log3d','entrepri'],
-	ipb: p1
+	ipb: application
 }; //generer auto
 
 var Etp31 ={
@@ -244,7 +244,7 @@ var Etp31 ={
 	lien: 'https://www.ingenib.fr/students/catalogue',
 	filiereRecherchee: ['telecom','elec','mmk','info','rsi','see','cognitif'],
 	activite: ['mecanique','informatique','programmation','intsys','editlogi','defense','aero','automobile','services','log3d','entrepri','transport'],
-	ipb: p1
+	ipb: application
 }; //generer auto
 
 
@@ -253,7 +253,7 @@ var Etp32 ={
 	lien: 'https://www.ingenib.fr/students/catalogue',
 	filiereRecherchee: ['telecom','elec','info','rsi','see'],
 	activite: ['informatique','programmation','intsys','editlogi','services','entrepri'],
-	ipb: p1
+	ipb: application
 }; //generer auto
 
 var Etp33 ={
@@ -261,7 +261,7 @@ var Etp33 ={
 	lien: 'https://www.ingenib.fr/students/catalogue',
 	filiereRecherchee: ['telecom','info','cognitif'],
 	activite: ['informatique','programmation','intsys','editlogi','services','entrepri'],
-	ipb: p1
+	ipb: application
 }; //generer auto
 
 var Etp34 ={
@@ -269,7 +269,7 @@ var Etp34 ={
 	lien: 'https://www.ingenib.fr/students/catalogue',
 	filiereRecherchee: ['telecom','elec','mmk','info','rsi','see','cognitif'],
 	activite: ['militaire','mecanique','energie','informatique','programmation','intsys','editlogi','defense','aero','automobile','services','indu','entrepri','microelec'],
-	ipb: p1
+	ipb: application
 }; //generer auto
 
 var Etp35 ={
@@ -277,7 +277,7 @@ var Etp35 ={
 	lien: 'https://www.ingenib.fr/students/catalogue',
 	filiereRecherchee: ['telecom','elec','mmk','info','rsi','see'],
 	activite: ['militaire','mecanique','energie','informatique','programmation','intsys','editlogi','defense','aero','automobile','sante','services','indu','entrepri','microelec'],
-	ipb: p1
+	ipb: application
 }; //generer auto
 
 Etp36 ={
@@ -285,7 +285,7 @@ nom: 'AT Internet',
 lien: 'https://www.ingenib.fr',
 filiereRecherchee: ['mmk','info'],
 activite: ['informatique','webanalytic','devweb'],
-ipb: p1
+ipb: application
 }; //generer auto
 
 Etp37 ={
@@ -293,7 +293,7 @@ nom: 'Sens4data',
 lien: 'https://www.ingenib.fr',
 filiereRecherchee: ['mmk','info'],
 activite: ['datascience'],
-ipb: p1
+ipb: application
 }; //generer auto
 
 Etp38 ={
@@ -301,7 +301,7 @@ nom: 'Activus Group',
 lien: 'https://www.ingenib.fr',
 filiereRecherchee: ['info','rsi','see'],
 activite: ['informatique','conseil'],
-ipb: p1
+ipb: application
 }; //generer auto
 
 
@@ -310,7 +310,7 @@ nom: 'Digital Product Simulation',
 lien: 'https://www.ingenib.fr',
 filiereRecherchee: ['info','rsi','see'],
 activite: ['informatique','editlogi','conseil'],
-ipb: p1
+ipb: application
 }; //generer auto
 
 
@@ -319,14 +319,14 @@ Etp40 ={
 	lien: 'https://www.ingenib.fr',
 	filiereRecherchee: ['mmk','info','rsi','see'],
 	activite: ['automobile','textile'],
-	ipb: p1
+	ipb: application
 	}; //generer auto
 Etp41 ={
 	nom: 'Technology & Strategy Group',
 	lien: 'https://www.ingenib.fr',
 	filiereRecherchee: ['elec','mmk','info','see'],
 	activite: ['energie','aero','automobile','sante','finance','assurance','tourisme','ferroviaire'],
-	ipb: p1
+	ipb: application
 	}; //generer auto
 
 Etp42 ={
@@ -334,7 +334,7 @@ Etp42 ={
 	lien: 'https://www.ingenib.fr',
 	filiereRecherchee: ['telecom','elec','info','rsi','see'],
 	activite: ['comm','logistique','cyberdefense'],
-	ipb: p1
+	ipb: application
 	}; //generer auto
 
 Etp43 ={
@@ -342,7 +342,7 @@ Etp43 ={
 	lien: 'https://www.ingenib.fr',
 	filiereRecherchee: ['telecom','info','rsi'],
 	activite: ['telecommuication'],
-	ipb: p1
+	ipb: application
 	}; //generer auto
 
 Etp44 ={
@@ -350,7 +350,7 @@ Etp44 ={
 	lien: 'https://www.ingenib.fr',
 	filiereRecherchee: ['telecom','elec','mmk','info','rsi','see'],
 	activite: ['energie','ferroviaire'],
-	ipb: p1
+	ipb: application
 	}; //generer auto
 
 Etp45 ={
@@ -358,7 +358,7 @@ Etp45 ={
 	lien: 'https://www.ingenib.fr',
 	filiereRecherchee: ['telecom','elec','mmk','info','rsi','see'],
 	activite: ['energie','defense','aero','telecommuication','banque','finance','assurance','transport'],
-	ipb: p1
+	ipb: application
 	}; //generer auto
 
 Etp46 ={
@@ -366,7 +366,7 @@ Etp46 ={
 	lien: 'https://www.ingenib.fr',
 	filiereRecherchee: ['telecom','info','rsi'],
 	activite: ['telecommuication','comm','reseau'],
-	ipb: p1
+	ipb: application
 	}; //generer auto
 
 Etp47 ={
@@ -374,7 +374,7 @@ Etp47 ={
 	lien: 'https://www.ingenib.fr',
 	filiereRecherchee: ['elec','mmk','see'],
 	activite: ['informatique','aero','automobile','indu'],
-	ipb: p1
+	ipb: application
 	}; //generer auto
 
 Etp48 ={
@@ -382,7 +382,7 @@ Etp48 ={
 	lien: 'https://www.ingenib.fr',
 	filiereRecherchee: ['telecom','elec','mmk','info','see'],
 	activite: ['editlogi','microelec','mecanique'],
-	ipb: p1
+	ipb: application
 	}; //generer auto
 
 Etp49 ={
@@ -390,7 +390,7 @@ Etp49 ={
 	lien: 'https://www.ingenib.fr',
 	filiereRecherchee: ['telecom','info','rsi'],
 	activite: ['informatique','editlogi'],
-	ipb: p1
+	ipb: application
 	}; //generer auto
 
 Etp50 ={
@@ -398,7 +398,7 @@ Etp50 ={
 	lien: 'https://www.ingenib.fr',
 	filiereRecherchee: ['telecom','elec','mmk','info','rsi','see'],
 	activite: ['informatique','defense','aero','ecommerce','telecommuication','banque','conseil','finance','assurance'],
-	ipb: p1
+	ipb: application
 	}; //generer auto
 
 Etp51 ={
@@ -406,7 +406,7 @@ Etp51 ={
 	lien: 'https://www.ingenib.fr',
 	filiereRecherchee: ['telecom','elec','mmk','info','rsi','see'],
 	activite: ['militaire','energie','aero','automobile','sante','indu','ferroviaire'],
-	ipb: p1
+	ipb: application
 	}; //generer auto
 
 Etp52 ={
@@ -414,7 +414,7 @@ Etp52 ={
 	lien: 'https://www.ingenib.fr',
 	filiereRecherchee: ['info','rsi'],
 	activite: ['informatique','reseau'],
-	ipb: p1
+	ipb: application
 	}; //generer auto
 
 Etp53 ={
@@ -422,7 +422,7 @@ Etp53 ={
 	lien: 'https://www.ingenib.fr',
 	filiereRecherchee: ['telecom','elec','mmk','info','rsi','see','cognitif'],
 	activite: ['conseil','entrepri'],
-	ipb: p1
+	ipb: application
 	}; //generer auto
 
 Etp54 ={
@@ -430,7 +430,7 @@ Etp54 ={
 	lien: 'https://www.ingenib.fr',
 	filiereRecherchee: ['info'],
 	activite: ['informatique','programmation'],
-	ipb: p1
+	ipb: application
 	}; //generer auto
 
 Etp55 ={
@@ -438,7 +438,7 @@ nom: '',
 lien: 'https://www.ingenib.fr',
 filiereRecherchee: [],
 activite: [],
-ipb: p1
+ipb: application
 }; //generer auto
 
 Etp56 ={
@@ -446,7 +446,7 @@ nom: '',
 lien: 'https://www.ingenib.fr',
 filiereRecherchee: [],
 activite: [],
-ipb: p1
+ipb: application
 }; //generer auto
 
 Etp57 ={
@@ -454,7 +454,7 @@ nom: '',
 lien: 'https://www.ingenib.fr',
 filiereRecherchee: [],
 activite: [],
-ipb: p1
+ipb: application
 }; //generer auto
 
 Etp58 ={
@@ -462,7 +462,7 @@ nom: '',
 lien: 'https://www.ingenib.fr',
 filiereRecherchee: [],
 activite: [],
-ipb: p1
+ipb: application
 }; //generer auto
 
 Etp59 ={
@@ -470,7 +470,7 @@ nom: '',
 lien: 'https://www.ingenib.fr',
 filiereRecherchee: [],
 activite: [],
-ipb: p1
+ipb: application
 }; //generer auto
 
 Etp60 ={
@@ -478,7 +478,7 @@ nom: '',
 lien: 'https://www.ingenib.fr',
 filiereRecherchee: [],
 activite: [],
-ipb: p1
+ipb: application
 }; //generer auto
 
 Etp61 ={
@@ -486,7 +486,7 @@ nom: '',
 lien: 'https://www.ingenib.fr',
 filiereRecherchee: [],
 activite: [],
-ipb: p1
+ipb: application
 }; //generer auto
 
 Etp62 ={
@@ -494,7 +494,7 @@ nom: '',
 lien: 'https://www.ingenib.fr',
 filiereRecherchee: [],
 activite: [],
-ipb: p1
+ipb: application
 }; //generer auto
 
 Etp63 ={
@@ -502,7 +502,7 @@ nom: 'Ubisoft',
 lien: 'https://www.ingenib.fr',
 filiereRecherchee: ['info','rsi','see'],
 activite: ['informatique','jeux'],
-ipb: p1
+ipb: application
 }; //generer auto
 
 Etp64 ={
@@ -510,7 +510,7 @@ nom: 'Diginext',
 lien: 'https://www.ingenib.fr',
 filiereRecherchee: ['info','rsi','see','cognitif'],
 activite: ['informatique','militaire','intarti'],
-ipb: p1
+ipb: application
 }; //generer auto
 
 Etp65 ={
@@ -518,7 +518,7 @@ nom: 'Margo Group',
 lien: 'https://www.ingenib.fr',
 filiereRecherchee: ['info','rsi'],
 activite: ['informatique','editlogi','conseil'],
-ipb: p1
+ipb: application
 }; //generer auto
 
 Etp66 ={
@@ -526,7 +526,7 @@ nom: 'Campana & Schott',
 lien: 'https://www.ingenib.fr',
 filiereRecherchee: ['info'],
 activite: ['informatique','conseil'],
-ipb: p1
+ipb: application
 }; //generer auto
 
 Etp67 ={
@@ -534,7 +534,7 @@ nom: 'BeTomorrow',
 lien: 'https://www.ingenib.fr',
 filiereRecherchee: ['info'],
 activite: ['informatique','editlogi'],
-ipb: p1
+ipb: application
 }; //generer auto
 
 Etp68 ={
@@ -542,7 +542,7 @@ nom: 'Wavestone',
 lien: 'https://www.ingenib.fr',
 filiereRecherchee: ['telecom','info','rsi','see','cognitif'],
 activite: ['energie','telecommuication','banque','indu','assurance','transport'],
-ipb: p1
+ipb: application
 }; //generer auto
 
 Etp69 ={
@@ -550,7 +550,7 @@ nom: '4SH',
 lien: 'https://www.ingenib.fr',
 filiereRecherchee: ['telecom','info','cognitif'],
 activite: ['informatique','editlogi','conseil'],
-ipb: p1
+ipb: application
 }; //generer auto
 
 Etp70 ={
@@ -558,7 +558,7 @@ nom: 'Dolist',
 lien: 'https://www.ingenib.fr',
 filiereRecherchee: ['info'],
 activite: ['informatique','editlogi','conseil'],
-ipb: p1
+ipb: application
 }; //generer auto
 
 
@@ -567,7 +567,7 @@ nom: 'Betclic',
 lien: 'https://www.ingenib.fr',
 filiereRecherchee: ['info'],
 activite: ['informatique'],
-ipb: p1
+ipb: application
 }; //generer auto
 
 Etp72 ={
@@ -575,7 +575,7 @@ nom: 'Fabernovel',
 lien: 'https://www.ingenib.fr',
 filiereRecherchee: ['info'],
 activite: ['informatique','editlogi'],
-ipb: p1
+ipb: application
 }; //generer auto
 
 Etp73 ={
@@ -583,7 +583,7 @@ nom: '',
 lien: 'https://www.ingenib.fr',
 filiereRecherchee: [],
 activite: [],
-ipb: p1
+ipb: application
 }; //generer auto
 
 Etp74 ={
@@ -591,7 +591,7 @@ nom: '',
 lien: 'https://www.ingenib.fr',
 filiereRecherchee: [],
 activite: [],
-ipb: p1
+ipb: application
 }; //generer auto
 
 Etp75 ={
@@ -599,7 +599,7 @@ nom: '',
 lien: 'https://www.ingenib.fr',
 filiereRecherchee: [],
 activite: [],
-ipb: p1
+ipb: application
 }; //generer auto
 
 
@@ -608,7 +608,7 @@ nom: '',
 lien: 'https://www.ingenib.fr',
 filiereRecherchee: [],
 activite: [],
-ipb: p1
+ipb: application
 }; //generer auto
 
 Etp77 ={
@@ -616,7 +616,7 @@ nom: 'Accenture',
 lien: 'https://www.ingenib.fr',
 filiereRecherchee: ['telecom','elec','mmk','info','rsi','see','cognitif'],
 activite: ['services','techno'],
-ipb: p1
+ipb: application
 }; //generer auto
 
 Etp78 ={
@@ -624,7 +624,7 @@ nom: 'Smile',
 lien: 'https://www.ingenib.fr',
 filiereRecherchee: ['info','rsi','see','cognitif'],
 activite: ['informatique','services'],
-ipb: p1
+ipb: application
 }; //generer auto
 
 Etp79 ={
@@ -632,7 +632,7 @@ nom: 'Blu Age',
 lien: 'https://www.ingenib.fr',
 filiereRecherchee: ['info'],
 activite: ['informatique','ecommerce'],
-ipb: p1
+ipb: application
 }; //generer auto
 
 
@@ -677,7 +677,30 @@ for (var i=0; i < filliere.length; i++) {
 }
 
 
-//Boucle pour les maps
+
+if (screen.width>400) {
+//Boucle pour les maps sur PC
+
+//Pour l'anciens bâtiement
+var stands = [ '<rect opacity=" 0.46" height="41" width="73" y="11.953125" x="62" stroke-opacity="null" stroke-width="0" stroke="#000" fill="none"',
+'<rect opacity="0.46" height="41" width="73" y="11.953125" x="149" stroke-opacity="null" stroke-width="0" stroke="#000" fill="none"',
+'<rect opacity="0.46" height="41" width="73" y="11.953125" x="265" stroke-opacity="null" stroke-width="0" stroke="#000" fill="none"',
+'<rect opacity="0.46" height="41" width="73" y="11.953125" x="352" stroke-opacity="null" stroke-width="0" stroke="#000" fill="none"',
+'<rect opacity="0.46" height="41" width="73" y="11.953125" x="503" stroke-opacity="null" stroke-width="0" stroke="#000" fill="none"',
+'<rect opacity="0.46" height="41" width="73" y="11.953125" x="590" stroke-opacity="null" stroke-width="0" stroke="#000" fill="none"',
+'<rect opacity="0.46" height="41" width="73" y="11.953125" x="681" stroke-opacity="null" stroke-width="0" stroke="#000" fill="none"',
+'<rect opacity="0.46" height="41" width="73" y="152.953125" x="214" stroke-opacity="null" stroke-width="0" stroke="#000" fill="none"',
+'<rect opacity="0.46" height="41" width="73" y="151.953125" x="462" stroke-opacity="null" stroke-width="0" stroke="#000" fill="none"',
+'<rect opacity="0.46"  height="41" width="73" y="152.953125" x="550" stroke-opacity="null" stroke-width="0" stroke="#000" fill="none"'];
+
+var str="";
+offset=1;
+for (var i=offset; i < stands.length+offset; i++) {
+	str="<a id='lien"+i+"' href='"+listeEtp[i-1].lien+"'><title id='E"+i+"'>"+listeEtp[i-1].nom+"</title>"+stands[i-offset]+"id=p"+i+" /></a>";
+	lamaparelever.insertAdjacentHTML('beforeend', str);
+}
+lamaparelever.insertAdjacentHTML('beforeend', "</g>");
+
 
 //Pour l'anciens bâtiement
 var stands = [ '<rect fill="none" stroke-width="0" stroke-opacity="null" fill-opacity="null" opacity="0.5" x="3.99872" y="96.1192" width="39.999814" height="72.000179" stroke="#000"',
@@ -755,8 +778,8 @@ SousSol.insertAdjacentHTML('beforeend', "</g>");
 
 
 //Pour le sous sol 2
-var stands = [ '<rect height="41" width="71" y="4.45313" x="6" stroke-width="0" stroke="#000" fill="none" opacity="0.5"',
-						  '<rect stroke="#000" height="41" width="125" y="6.45313" x="83" stroke-width="0" fill="none" opacity="0.5"',
+var stands = [ '<rect stroke="#000" opacity="0.5" height="38" width="123" y="8.45312" x="7.25" stroke-width="0" fill="none"',
+							'<rect stroke="#000" opacity="0.5" height="38" width="70" y="8.45312" x="139.25" stroke-width="0" fill="none"',
 						  '<rect  height="41" width="71" y="6.45313" x="214" stroke-width="0" stroke="#000" fill="none" opacity="0.5"',
 						  '<rect height="41" width="71" y="5.45313" x="297" stroke-width="0" stroke="#000" fill="none" opacity="0.5"',
 						  '<rect  height="41" width="71" y="5.45313" x="371" stroke-width="0" stroke="#000" fill="none" opacity="0.5"',
@@ -765,13 +788,13 @@ var stands = [ '<rect height="41" width="71" y="4.45313" x="6" stroke-width="0" 
 						  '<rect height="41" width="71" y="5.45313" x="602" stroke-width="0" stroke="#000" fill="none" opacity="0.5"',
 						  '<rect height="41" width="71" y="5.45313" x="680" stroke-width="0" stroke="#000" fill="none" opacity="0.5"',
 						  '<rect height="41" width="71" y="5.45313" x="753" stroke-width="0" stroke="#000" fill="none" opacity="0.5"',
-						  '<rect height="41" width="71" y="185.45313" x="8" stroke-width="0" stroke="#000" fill="none" opacity="0.5"',
 						  '<rect height="41" width="71" y="186.45313" x="165" stroke-width="0" stroke="#000" fill="none" opacity="0.5"',
 						  '<rect height="41" width="71" y="186.45313" x="242" stroke-width="0" stroke="#000" fill="none" opacity="0.5"',
 						  '<rect height="41" width="71" y="186.45313" x="312" stroke-width="0" stroke="#000" fill="none" opacity="0.5"',
 						  '<rect height="41" width="71" y="186.45313" x="390" stroke-width="0" stroke="#000" fill="none" opacity="0.5"',
 						  '<rect height="41" width="71" y="188.45313" x="567" stroke-width="0" stroke="#000" fill="none" opacity="0.5"',
-						  '<rect height="41" width="71" y="188.45313" x="643" stroke-width="0" stroke="#000" fill="none" opacity="0.5"'];
+						  '<rect height="41" width="71" y="188.45313" x="643" stroke-width="0" stroke="#000" fill="none" opacity="0.5"',
+							'<rect stroke="#000" opacity="0.5" height="38" width="70" y="188.45312" x="715.25" stroke-width="0" fill="none"'];
 
 var str="";
 offset=63;
@@ -781,29 +804,42 @@ for (var i=offset; i < stands.length+offset; i++)  {
 }
 SousSolDeux.insertAdjacentHTML('beforeend', "</g>");
 
-nb_etp=79;
+	document.getElementById("SousSol").style.display = "none";
+	document.getElementById("SousSolDeux").style.display = "none";
+	document.getElementById("lamaparelever").style.display = "none";
+	document.getElementById("SousSolMobile").style.display = "none";
+	document.getElementById("SousSolDeuxMobile").style.display = "none";
+	document.getElementById("NBMobile").style.display = "none";
+	document.getElementById("ABMobile").style.display = "none";
+}
 
+
+
+
+if (screen.width<=800) {
+	document.getElementById("SousSolMobile").style.display = "none";
+	document.getElementById("AncienBatiment").style.display = "none";
+	document.getElementById("SousSol").style.display = "none";
+	document.getElementById("SousSolDeux").style.display = "none";
+	document.getElementById("lamaparelever").style.display = "none";
+	document.getElementById("SousSolDeuxMobile").style.display = "none";
+	document.getElementById("NBMobile").style.display = "none";
+	document.getElementById("ABMobile").style.removeProperty( 'display' );
+}
+
+
+
+
+
+// boucle pour rentrer les pX  (On peut le faire seulement après pour des raison d'odre d'utilisation.)
+for (var i=0; i < nb_etp; i++) {
+	eval("listeEtp["+i+"].ipb=p"+(i+1)+"");
+}
 
 //Boucle pour la recherche
 
 var str=''; // variable to store the options
 for (var i=1; i < nb_etp; i++) {
-str += '<option value="'+listeEtp[i].nom+'" />'; // Storing options in variable
+	str += '<option value="'+listeEtp[i].nom+'" />'; // Storing options in variable
 }
 laliste.innerHTML = str;
-
-
-// boucle pour rentrer les pX
-for (var i=0; i < nb_etp; i++) {
-eval("listeEtp["+i+"].ipb=p"+(i+1)+"");
-}
-
-document.getElementById("AncienBatiment").style.removeProperty( 'display' );
-document.getElementById("SousSol").style.display = "none";
-document.getElementById("SousSolDeux").style.display = "none";
-document.getElementById("lamaparelever").style.display = "none";
-
-document.getElementById("AncienBatiment").style.trnasition = "all 2s";
-document.getElementById("SousSol").style.trnasition = "all 2s";
-document.getElementById("SousSolDeux").style.trnasition = "all 2s";
-document.getElementById("lamaparelever").style.trnasition = "all 2s";
