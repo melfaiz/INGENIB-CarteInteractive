@@ -30,16 +30,16 @@
     .containchecks {
       display: flex;
       position: relative;
-      padding-left: 50px;
+      padding-left: 10px;
       margin-bottom: 7px;
       cursor: pointer;
-      font-size: 14px;
+      font-size: 16px;
       -webkit-user-select: none;
       -moz-user-select: none;
       -ms-user-select: none;
       user-select: none;
-      width: 160px;
-      height: 30px;
+      width: 165px;
+      height: 35px;
     }
 
 

@@ -15,7 +15,7 @@
 
 		filliere.forEach(function(item){ //Pour tous les filliere
 			if (eval(""+item+"box.checked")){   //On regarde si la case est coché
-				for (var i=0; i < nb_etp-1; i++) {						// on parcours toute les entreprises
+				for (var i=0; i < nb_etp; i++) {						// on parcours toute les entreprises
 					if(eval("listeEtp[i].filiereRecherchee.includes('"+item+"')")){     //Pour vérifier si elle vérifie la propriété
 						listeEtp[i].ipb.setAttribute("class", "activ");  	//Puis on prend son placement et on change sa classe à activ
 					}
@@ -27,7 +27,7 @@
 
 function actietp() {
 
-		var domaines = ["textile", "tourisme", "ferroviaire", "comm", "logistique", "cyberdefense", "reseau" , "mecanique","datascience","devwev","webanalytics","jeux","intarti","mode","techno","militaire","energie","informatique","finance","programmation","intsys","editlogi","defense","aero","automobile","ecommerce","telecommuication","startup","sante","services","banque","log3d","indu","conseil","entrepri","assurance","transport","microelec"];
+	var domaines = ["tourisme","recherche", "ferroviaire", "comm", "logistique", "cyberdefense", "reseau" , "mecanique","datascience","devweb","webanalytics","jeux","intarti","mode","hautetech","militaire","energie","finance","programmation","editlogi","defense","aero","automobile","ecommerce","telecommuication","sante","services","log3d","indu","conseil","transport","microelec"];
 
 			//On sépare en 2 cas
 
@@ -94,7 +94,7 @@ function actietp() {
 				//Puis on passe a activ toute les entrepriss qui vérifie la/les proprété cochées
 				domaines.forEach(function(item){
 						if (eval(""+item+"box.checked")){
-							for (var i=0; i < nb_etp-1; i++) {
+							for (var i=0; i < nb_etp; i++) {
 								if(listeEtp[i].activite.includes(item)){
 									listeEtp[i].ipb.setAttribute("class", "activ");
 								}
@@ -139,12 +139,14 @@ function afficherue(){
 	document.getElementById("SousSol").style.display = "none";
 	document.getElementById("SousSolDeux").style.display = "none";
 	document.getElementById("lamaparelever").style.display = "none";
+	document.getElementById("RDCnouvBat").style.display = "none";
 	}
 	else{
 		document.getElementById("ABMobile").style.removeProperty( 'display' );
 		document.getElementById("SousSolMobile").style.display = "none";
 		document.getElementById("SousSolDeuxMobile").style.display = "none";
 		document.getElementById("NBMobile").style.display = "none";
+		document.getElementById("RDCnbMobile").style.display = "none";
 	}
 }
 
@@ -154,12 +156,14 @@ function affichenb(){
 	document.getElementById("SousSol").style.display = "none";
 	document.getElementById("SousSolDeux").style.display = "none";
 	document.getElementById("AncienBatiment").style.display = "none";
+	document.getElementById("RDCnouvBat").style.display = "none";
 }
 else{
 	document.getElementById("NBMobile").style.removeProperty( 'display' );
 	document.getElementById("SousSolDeuxMobile").style.display = "none";
 	document.getElementById("SousSolMobile").style.display = "none";
 	document.getElementById("ABMobile").style.display = "none";
+	document.getElementById("RDCnbMobile").style.display = "none";
 }
 
 }
@@ -170,12 +174,14 @@ function affichessl(){
 	document.getElementById("lamaparelever").style.display = "none";
 	document.getElementById("SousSolDeux").style.display = "none";
 	document.getElementById("AncienBatiment").style.display = "none";
+	document.getElementById("RDCnouvBat").style.display = "none";
 }
 else{
 	document.getElementById("SousSolMobile").style.removeProperty( 'display' );
 	document.getElementById("SousSolDeuxMobile").style.display = "none";
 	document.getElementById("NBMobile").style.display = "none";
 	document.getElementById("ABMobile").style.display = "none";
+	document.getElementById("RDCnbMobile").style.display = "none";
 }
 }
 
@@ -185,9 +191,28 @@ function affichess2(){
 	document.getElementById("SousSol").style.display = "none";
 	document.getElementById("lamaparelever").style.display = "none";
 	document.getElementById("AncienBatiment").style.display = "none";
+	document.getElementById("RDCnouvBat").style.display = "none";
 }
 else{
 	document.getElementById("SousSolDeuxMobile").style.removeProperty( 'display' );
+	document.getElementById("SousSolMobile").style.display = "none";
+	document.getElementById("NBMobile").style.display = "none";
+	document.getElementById("ABMobile").style.display = "none";
+	document.getElementById("RDCnbMobile").style.display = "none";
+}
+}
+
+function affichenbrdc(){
+	if (screen.width>800) {
+	document.getElementById("RDCnouvBat").style.removeProperty( 'display' );
+	document.getElementById("SousSol").style.display = "none";
+	document.getElementById("lamaparelever").style.display = "none";
+	document.getElementById("AncienBatiment").style.display = "none";
+	document.getElementById("SousSolDeux").style.display = "none";
+}
+else{
+	document.getElementById("RDCnbMobile").style.removeProperty( 'display' );
+	document.getElementById("SousSolDeuxMobile").style.display = "none";
 	document.getElementById("SousSolMobile").style.display = "none";
 	document.getElementById("NBMobile").style.display = "none";
 	document.getElementById("ABMobile").style.display = "none";
