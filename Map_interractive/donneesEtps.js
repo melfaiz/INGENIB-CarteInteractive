@@ -1,7 +1,7 @@
 
 var nb_etp=88;
 
-var Etp1 ={
+var Etp2 ={
 nom: 'Bouygues',
 lien: 'https://www.ingenib.fr/students/catalogue/',
 filiereRecherchee: ['telecom','info','rsi'],
@@ -9,7 +9,7 @@ activite: ['editlogi','telecommuication','services','comm','datascience'],
 ipb: application
 }; //generer auto
 
-var Etp2 ={
+var Etp1 ={
 	nom: 'Ingeliance Technologies',
 	lien: 'https://www.ingenib.fr/students/catalogue/',
 	filiereRecherchee: ['mmk','info','see'],
@@ -39,7 +39,7 @@ var Etp5 ={
 	activite: ['cyberdefense'],
 	ipb: application}; //generer auto
 
-var Etp6 ={
+var Etp14 ={
 		nom: 'NXP',
 		lien: 'https://www.ingenib.fr/students/catalogue/',
 		filiereRecherchee: ['telecom','elec','info','see'],
@@ -74,7 +74,7 @@ var Etp9 ={
 		activite: ['mecanique','energie','microelec','datascience'],
 		ipb: application}; //generer auto
 
-var Etp11 ={
+var Etp6 ={
 	nom: 'Asobo',
 	lien: 'https://www.ingenib.fr/students/catalogue/',
 	filiereRecherchee: ['telecom','info'],
@@ -98,7 +98,7 @@ var Etp13 ={
 	ipb: application
 }; //generer auto
 
-var Etp14 ={
+var Etp11 ={
 	nom: 'Onet',
 	lien: 'https://www.ingenib.fr/students/catalogue/',
 	filiereRecherchee: ['telecom','elec','mmk','info'],

@@ -8,6 +8,11 @@
     width: 100px;
     height: 5px;
 }
+
+.leslogos{
+	margin: auto;
+	width: auto;
+}
 .activ{
 	fill:#b50cf5;
 	fill-opacity: 0.5;
