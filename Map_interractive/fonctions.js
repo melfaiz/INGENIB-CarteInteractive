@@ -140,6 +140,7 @@ function afficherue(){
 	document.getElementById("SousSolDeux").style.display = "none";
 	document.getElementById("lamaparelever").style.display = "none";
 	document.getElementById("RDCnouvBat").style.display = "none";
+	document.getElementById("RDCnouvBat").style.display = "none";
 	}
 	else{
 		document.getElementById("ABMobile").style.removeProperty( 'display' );
@@ -148,6 +149,11 @@ function afficherue(){
 		document.getElementById("NBMobile").style.display = "none";
 		document.getElementById("RDCnbMobile").style.display = "none";
 	}
+	bouton3.setAttribute("class", "boutonactif");
+	bouton2.setAttribute("class", "lesboutons");
+	bouton1.setAttribute("class", "lesboutons");
+	bouton4.setAttribute("class", "lesboutons");
+	bouton5.setAttribute("class", "lesboutons");
 }
 
 function affichenb(){
@@ -165,7 +171,11 @@ else{
 	document.getElementById("ABMobile").style.display = "none";
 	document.getElementById("RDCnbMobile").style.display = "none";
 }
-
+bouton1.setAttribute("class", "boutonactif");
+bouton2.setAttribute("class", "lesboutons");
+bouton3.setAttribute("class", "lesboutons");
+bouton4.setAttribute("class", "lesboutons");
+bouton5.setAttribute("class", "lesboutons");
 }
 
 function affichessl(){
@@ -183,6 +193,11 @@ else{
 	document.getElementById("ABMobile").style.display = "none";
 	document.getElementById("RDCnbMobile").style.display = "none";
 }
+bouton4.setAttribute("class", "boutonactif");
+bouton2.setAttribute("class", "lesboutons");
+bouton3.setAttribute("class", "lesboutons");
+bouton1.setAttribute("class", "lesboutons");
+bouton5.setAttribute("class", "lesboutons");
 }
 
 function affichess2(){
@@ -200,6 +215,11 @@ else{
 	document.getElementById("ABMobile").style.display = "none";
 	document.getElementById("RDCnbMobile").style.display = "none";
 }
+bouton5.setAttribute("class", "boutonactif");
+bouton2.setAttribute("class", "lesboutons");
+bouton3.setAttribute("class", "lesboutons");
+bouton4.setAttribute("class", "lesboutons");
+bouton1.setAttribute("class", "lesboutons");
 }
 
 function affichenbrdc(){
@@ -217,4 +237,9 @@ else{
 	document.getElementById("NBMobile").style.display = "none";
 	document.getElementById("ABMobile").style.display = "none";
 }
+bouton2.setAttribute("class", "boutonactif");
+bouton1.setAttribute("class", "lesboutons");
+bouton3.setAttribute("class", "lesboutons");
+bouton4.setAttribute("class", "lesboutons");
+bouton5.setAttribute("class", "lesboutons");
 }

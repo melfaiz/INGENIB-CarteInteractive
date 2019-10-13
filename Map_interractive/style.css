@@ -142,6 +142,16 @@ svg{
   background-color: rgb(123,153,54);
   color:#fff;
 }
+
+.bontonnavigation .boutonactif{
+   border-radius: 10px;
+  border: 1px rgb(123,153,54) solid ;
+   align-self: center;
+   	box-shadow:1px 0.5px 3px 0px rgba(0, 0, 0, 0.40);
+  background-color: rgb(123,153,54);
+  color:#fff;
+}
+
 .maps{
   margin-top: 35px;
 }
