@@ -731,7 +731,7 @@ for (var i=1; i <= nb_etp; i++) {
 //Boucle pour ecrire les checkboxs domaines
 var domaines = ["tourisme","recherche", "ferroviaire", "comm", "logistique", "cyberdefense", "reseau" , "mecanique","datascience","devweb","webanalytics","jeux","intarti","mode","hautetech","militaire","energie","finance","programmation","editlogi","defense","aero","automobile","ecommerce","telecommuication","sante","services","log3d","indu","conseil","transport","microelec"];
 domaines.sort();
-var LesNomsDesDomaines=["Tourisme", "Ferroviaire", "Communication", "Logistique", "Cyberdefense", "Reseau" ,"Recherche","Mecanique","Data datascience","Dev Web","Web Analytics","Jeux vidéo","Intelligence Atrificielle","Mode & Textile","Haute Technologie","Militaire","Energie/ Environnement","Finance/Banque/ Assurance","Programation Back-End","Edition Logiciel","Defense","Aeronautique/ Naval","Automobile","E-commerce","Telécom","Santé","Secteur public","Logiciel 3D","Industriel","Conseil","Transport","Micro éléctronqiue"];
+var LesNomsDesDomaines=["Tourisme", "Ferroviaire", "Communication", "Logistique", "Cyberdefense", "Réseau" ,"Recherche","Mécanique","Data science","Dev Web","Web Analytics","Jeux vidéo","Intelligence Atrificielle","Mode & Textile","Haute Technologie","Militaire","Energie/ Environnement","Finance/Banque/ Assurance","Programation Back-End","Edition Logiciel","Defense","Aéronautique/ Naval","Automobile","E-commerce","Télécom","Santé","Secteur public","Logiciel 3D","Industriel","Conseil","Transport","Micro électronqiue"];
 LesNomsDesDomaines.sort();
 var str="";
 for (var i=0; i < domaines.length; i=i+4) {
@@ -748,8 +748,7 @@ for (var i=0; i < domaines.length; i=i+4) {
 //Boucle pour ecrire les checkboxs fillière
 filliere=['info','telecom','rsi','mmk','elec','see','cognitif'];
 filliere.sort();
-var LesNomsDesFilliere=["Informatique","Télécommunication","RSI","Math-méca","Electronique","SEE","Cognitif"];
-LesNomsDesFilliere.sort();
+var LesNomsDesFilliere=["Cognitif","Électronique","Informatique","Maths & méca","RSI","SEE","Télécommunications"];
 var str="";
 for (var i=0; i < filliere.length; i++) {
 	str="<div class='containchecks'>"+" <input type='checkbox'  class='custom-control-input' id='"+filliere[i]+"box' value='checkbox' onClick='boxfilliere()'> <p class='customtexte'>"+LesNomsDesFilliere[i]+"</p></div>";
