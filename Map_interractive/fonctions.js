@@ -121,12 +121,15 @@ function rechercheetp(){
 				if (i>10 && i<36) {
 					afficherue();
 				}
-				if (i>35 && i<63) {
+				if (i>35 && i<61) {
 					affichess1();
 				}
-				if (i>62) {
+				if (i>60 && i<80) {
 					affichess2();
-			}
+				}
+				if (i>79) {
+					affichenbrdc();
+				}
 
 		}
 	}
