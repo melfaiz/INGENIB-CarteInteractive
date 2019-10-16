@@ -118,16 +118,16 @@ function rechercheetp(){
 				if (i<10) {
 					affichenb();
 				}
-				if (i>9 && i<35) {
+				if (i>9 & i<35) {
 					afficherue();
 				}
-				if (i>34 && i<60) {
+				if (i>34 & i<60) {
 					affichess1();
 				}
-				if (i>59 && i<79) {
+				if (i>59 & i<79) {
 					affichess2();
 				}
-				if (i>78) {
+				if(i>78){
 					affichenbrdc();
 				}
 
