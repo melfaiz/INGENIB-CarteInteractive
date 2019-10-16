@@ -115,19 +115,19 @@ function rechercheetp(){
 					elem[j].setAttribute("class", "hiden");  //Changer la classe to hiden
 				}
 				listeEtp[i].ipb.setAttribute("class", "activ");
-				if (i<11) {
+				if (i<10) {
 					affichenb();
 				}
-				if (i>10 && i<36) {
+				if (i>9 && i<35) {
 					afficherue();
 				}
-				if (i>35 && i<61) {
+				if (i>34 && i<60) {
 					affichess1();
 				}
-				if (i>60 && i<80) {
+				if (i>59 && i<79) {
 					affichess2();
 				}
-				if (i>79) {
+				if (i>78) {
 					affichenbrdc();
 				}
 
